@@ -1,0 +1,837 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sommar Calendar//Sommar i P1 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sommar i P1 2026
+X-WR-TIMEZONE:Europe/Stockholm
+BEGIN:VTIMEZONE
+TZID:Europe/Stockholm
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-06-20-sommar-helena-bergström@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:Sommar i P1: Helena Bergström
+DESCRIPTION:Sommar i P1\n\nHost: Helena Bergström\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815462
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260620T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-21-sommar-sebastian-ingrosso@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Sommar i P1: Sebastian Ingrosso
+DESCRIPTION:Sommar i P1\n\nHost: Sebastian Ingrosso\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815463
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260621T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-22-sommar-martin-kragh@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:Sommar i P1: Martin Kragh
+DESCRIPTION:Sommar i P1\n\nHost: Martin Kragh\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815464
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260622T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-23-sommar-amanda-romare@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+SUMMARY:Sommar i P1: Amanda Romare
+DESCRIPTION:Sommar i P1\n\nHost: Amanda Romare\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815465
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260623T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-24-sommar-jonas-bonnier@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:Sommar i P1: Jonas Bonnier
+DESCRIPTION:Sommar i P1\n\nHost: Jonas Bonnier\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815466
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260624T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-25-sommar-jonas-gren@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:Sommar i P1: Jonas Gren
+DESCRIPTION:Sommar i P1\n\nHost: Jonas Gren\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815467
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260625T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-26-sommar-carolina-dybeck-happe@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Sommar i P1: Carolina Dybeck Happe
+DESCRIPTION:Sommar i P1\n\nHost: Carolina Dybeck Happe\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815474
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260626T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-27-sommar-alexander-karim@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:Sommar i P1: Alexander Karim
+DESCRIPTION:Sommar i P1\n\nHost: Alexander Karim\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815519
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260627T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-28-sommar-ginna-lindberg@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Sommar i P1: Ginna Lindberg
+DESCRIPTION:Sommar i P1\n\nHost: Ginna Lindberg\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815470
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260628T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-29-sommar-patrik-norqvist@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:Sommar i P1: Patrik Norqvist
+DESCRIPTION:Sommar i P1\n\nHost: Patrik Norqvist\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815471
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260629T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-30-sommar-johan-eriksson@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Sommar i P1: Johan Eriksson
+DESCRIPTION:Sommar i P1\n\nHost: Johan Eriksson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815472
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260630T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-01-sommar-sarah-sheppard@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Sommar i P1: Sarah Sheppard
+DESCRIPTION:Sommar i P1\n\nHost: Sarah Sheppard\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815473
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260701T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-02-sommar-maria-maunsbach@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:Sommar i P1: Maria Maunsbach
+DESCRIPTION:Sommar i P1\n\nHost: Maria Maunsbach\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815526
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260702T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-03-sommar-ann-heberlein@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Sommar i P1: Ann Heberlein
+DESCRIPTION:Sommar i P1\n\nHost: Ann Heberlein\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815475
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260703T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-04-sommar-olof-wretling@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:Sommar i P1: Olof Wretling
+DESCRIPTION:Sommar i P1\n\nHost: Olof Wretling\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815476
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260704T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-05-sommar-marie-göranzon@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Sommar i P1: Marie Göranzon
+DESCRIPTION:Sommar i P1\n\nHost: Marie Göranzon\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815477
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260705T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-06-sommar-erika-bjerström@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+SUMMARY:Sommar i P1: Erika Bjerström
+DESCRIPTION:Sommar i P1\n\nHost: Erika Bjerström\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815478
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260706T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-07-sommar-behrang-safari@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Sommar i P1: Behrang Safari
+DESCRIPTION:Sommar i P1\n\nHost: Behrang Safari\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815479
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260707T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-08-sommar-sebastian-siemiatkowski@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:Sommar i P1: Sebastian Siemiatkowski
+DESCRIPTION:Sommar i P1\n\nHost: Sebastian Siemiatkowski\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815483
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260708T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-09-sommar-evelyn-mok@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Sommar i P1: Evelyn Mok
+DESCRIPTION:Sommar i P1\n\nHost: Evelyn Mok\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815484
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260709T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-10-sommar-carl-skau@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Sommar i P1: Carl Skau
+DESCRIPTION:Sommar i P1\n\nHost: Carl Skau\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815488
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260710T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-11-sommar-amanda-jansson@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:Sommar i P1: Amanda Jansson
+DESCRIPTION:Sommar i P1\n\nHost: Amanda Jansson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815509
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260711T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-12-sommar-martin-modéus@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:Sommar i P1: Martin Modéus
+DESCRIPTION:Sommar i P1\n\nHost: Martin Modéus\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815510
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260712T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-13-sommar-emil-hansius@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Sommar i P1: Emil Hansius
+DESCRIPTION:Sommar i P1\n\nHost: Emil Hansius\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815511
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260713T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-14-sommar-ebba-kleberg-von-sydow@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Sommar i P1: Ebba Kleberg von Sydow
+DESCRIPTION:Sommar i P1\n\nHost: Ebba Kleberg von Sydow\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815515
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260714T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-15-sommar-bettan-byvald@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:Sommar i P1: Bettan Byvald
+DESCRIPTION:Sommar i P1\n\nHost: Bettan Byvald\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815516
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260715T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-16-sommar-elaf-ali@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Sommar i P1: Elaf Ali
+DESCRIPTION:Sommar i P1\n\nHost: Elaf Ali\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815517
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260716T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-17-sommar-anders-rosengren@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Sommar i P1: Anders Rosengren
+DESCRIPTION:Sommar i P1\n\nHost: Anders Rosengren\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815518
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260717T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-18-sommar-jan-rippe@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:Sommar i P1: Jan Rippe
+DESCRIPTION:Sommar i P1\n\nHost: Jan Rippe\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815469
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260718T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-19-sommar-ruth-kvarnström-jones@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:Sommar i P1: Ruth Kvarnström-Jones
+DESCRIPTION:Sommar i P1\n\nHost: Ruth Kvarnström-Jones\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815520
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260719T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-20-sommar-iqra-idow@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:Sommar i P1: Iqra Idow
+DESCRIPTION:Sommar i P1\n\nHost: Iqra Idow\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815522
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260720T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-21-sommar-maria-sid@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Sommar i P1: Maria Sid
+DESCRIPTION:Sommar i P1\n\nHost: Maria Sid\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815523
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260721T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-22-sommar-robin-larmérus@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:Sommar i P1: Robin Larmérus
+DESCRIPTION:Sommar i P1\n\nHost: Robin Larmérus\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815524
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260722T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-23-sommar-kajsa-ollongren@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:Sommar i P1: Kajsa Ollongren
+DESCRIPTION:Sommar i P1\n\nHost: Kajsa Ollongren\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815525
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260723T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-24-sommar-sara-vide-ericson@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:Sommar i P1: Sara-Vide Ericson
+DESCRIPTION:Sommar i P1\n\nHost: Sara-Vide Ericson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815548
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260724T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-25-sommar-joel-kinnaman@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:Sommar i P1: Joel Kinnaman
+DESCRIPTION:Sommar i P1\n\nHost: Joel Kinnaman\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815527
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260725T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-26-sommar-sven-hagströmer@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:Sommar i P1: Sven Hagströmer
+DESCRIPTION:Sommar i P1\n\nHost: Sven Hagströmer\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815529
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260726T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-27-sommar-ebba-årsjö@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:Sommar i P1: Ebba Årsjö
+DESCRIPTION:Sommar i P1\n\nHost: Ebba Årsjö\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815530
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260727T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-28-sommar-andreas-t-olsson@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:Sommar i P1: Andreas T Olsson
+DESCRIPTION:Sommar i P1\n\nHost: Andreas T Olsson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815531
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260728T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-29-sommar-martin-peterson@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:Sommar i P1: Martin Peterson
+DESCRIPTION:Sommar i P1\n\nHost: Martin Peterson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815532
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260729T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-30-sommar-alexandra-polivanova@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+SUMMARY:Sommar i P1: Alexandra Polivanova
+DESCRIPTION:Sommar i P1\n\nHost: Alexandra Polivanova\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815534
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260730T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-31-sommar-elin-rombo@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Sommar i P1: Elin Rombo
+DESCRIPTION:Sommar i P1\n\nHost: Elin Rombo\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815535
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260731T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-01-sommar-kristoffer-leandoer@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Sommar i P1: Kristoffer Leandoer
+DESCRIPTION:Sommar i P1\n\nHost: Kristoffer Leandoer\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815536
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260801T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-02-sommar-ebba-witt-brattström@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:Sommar i P1: Ebba Witt-Brattström
+DESCRIPTION:Sommar i P1\n\nHost: Ebba Witt-Brattström\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815537
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260802T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-03-sommar-david-wiberg@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:Sommar i P1: David Wiberg
+DESCRIPTION:Sommar i P1\n\nHost: David Wiberg\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815538
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260803T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-04-sommar-elham-rostami@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:Sommar i P1: Elham Rostami
+DESCRIPTION:Sommar i P1\n\nHost: Elham Rostami\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815539
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260804T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-05-sommar-pelle-larsson@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:Sommar i P1: Pelle Larsson
+DESCRIPTION:Sommar i P1\n\nHost: Pelle Larsson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815541
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260805T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-06-sommar-eva-von-bahr-och-love-larsson@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:Sommar i P1: Eva von Bahr och Love Larsson
+DESCRIPTION:Sommar i P1\n\nHost: Eva von Bahr och Love Larsson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815542
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260806T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-07-sommar-alexander-ekman@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Sommar i P1: Alexander Ekman
+DESCRIPTION:Sommar i P1\n\nHost: Alexander Ekman\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815543
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260807T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-08-sommar-linda-lampenius@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Sommar i P1: Linda Lampenius
+DESCRIPTION:Sommar i P1\n\nHost: Linda Lampenius\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815544
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260808T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-09-sommar-åsne-seierstad@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:Sommar i P1: Åsne Seierstad
+DESCRIPTION:Sommar i P1\n\nHost: Åsne Seierstad\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815545
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260809T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-10-sommar-manne-af-klintberg@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:Sommar i P1: Manne af Klintberg
+DESCRIPTION:Sommar i P1\n\nHost: Manne af Klintberg\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815546
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260810T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-11-sommar-ewa-fröling@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:Sommar i P1: Ewa Fröling
+DESCRIPTION:Sommar i P1\n\nHost: Ewa Fröling\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815547
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260811T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-12-sommar-vanessa-kamga@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:Sommar i P1: Vanessa Kamga
+DESCRIPTION:Sommar i P1\n\nHost: Vanessa Kamga\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815468
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260812T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-13-sommar-mohammad-fazlhashemi@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:Sommar i P1: Mohammad Fazlhashemi
+DESCRIPTION:Sommar i P1\n\nHost: Mohammad Fazlhashemi\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815549
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260813T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-14-sommar-sofia-dalén@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:Sommar i P1: Sofia Dalén
+DESCRIPTION:Sommar i P1\n\nHost: Sofia Dalén\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815876
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260814T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-15-sommar-felicia-eriksson@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Sommar i P1: Felicia Eriksson
+DESCRIPTION:Sommar i P1\n\nHost: Felicia Eriksson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815550
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260815T070000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-16-sommar-niklas-rådström@sommar-calendar
+DTSTAMP:20260616T213542Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:Sommar i P1: Niklas Rådström
+DESCRIPTION:Sommar i P1\n\nHost: Niklas Rådström\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815552
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sommar i P1 episode starts at 07:00
+TRIGGER;TZID=Europe/Stockholm:20260816T070000
+END:VALARM
+END:VEVENT
+END:VCALENDAR
