@@ -8,9 +8,8 @@ Last updated: 2026-06-15
 
 ## Sprint Backlog
 
-*Current sprint: not started*
-
-Sprint 2 is complete. Proposed Sprint 3 below — approve before starting.
+Sprint 3 — Done
+Published project to GitHub.
 
 ### Proposed Sprint 3: Hosted calendar (Phase 3)
 
