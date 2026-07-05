@@ -30,6 +30,10 @@ def list_fixture(year: int) -> Path:
     return fixtures_dir(year) / "list-page.txt"
 
 
+def portraits_cache(year: int) -> Path:
+    return fixtures_dir(year) / "portraits.json"
+
+
 def discover_cache(year: int) -> Path:
     return fixtures_dir(year) / "discover.json"
 

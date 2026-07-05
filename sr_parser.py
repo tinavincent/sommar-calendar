@@ -201,6 +201,70 @@ def parse_image_url(text: str) -> str:
     return match.group(1) if match else ""
 
 
+GENERIC_PORTRAIT_IDS = (
+    "26c851eb-70be-4004-b06d-a7bcc792c959",
+    "9cce83dc-eca1-4b06-872e-5b480301efaa",
+)
+
+PORTRAIT_URL_PATTERN = re.compile(
+    r"https://image-api\.sr\.se/v1/static/AA/2071/[a-f0-9-]+\.(?:jpg|jpeg|png)(?:\?[^\"'\s>)\"]*)?",
+    re.I,
+)
+
+
+def is_generic_portrait_url(url: str) -> bool:
+    return any(image_id in url for image_id in GENERIC_PORTRAIT_IDS)
+
+
+def normalize_portrait_url(url: str) -> str:
+    return url.split("?")[0].strip()
+
+
+def is_valid_portrait_url(url: str) -> bool:
+    if not url or not url.startswith("http"):
+        return False
+    if "image-api.sr.se" not in url:
+        return False
+    return not is_generic_portrait_url(url)
+
+
+def parse_portrait_url(text: str) -> str:
+    markdown_url = parse_image_url(text)
+    if is_valid_portrait_url(markdown_url):
+        return normalize_portrait_url(markdown_url)
+
+    body = extract_body(text)
+    for match in PORTRAIT_URL_PATTERN.finditer(body):
+        url = match.group(0)
+        if is_valid_portrait_url(url):
+            return normalize_portrait_url(url)
+
+    return ""
+
+
+def episode_slug_url(host: str, year: int = YEAR) -> str:
+    slug = slugify(host)
+    return f"https://www.sverigesradio.se/avsnitt/{slug}-sommarpratare-{year}"
+
+
+def episode_slug_candidates(host: str, year: int = YEAR, api_title: str = "") -> list[str]:
+    names = []
+    for name in (host, api_title):
+        if name and name not in names:
+            names.append(name)
+        if name and "larsson" in name.lower() and name.replace("Larsson", "Larson") not in names:
+            names.append(name.replace("Larsson", "Larson").replace("larsson", "larson"))
+
+    urls = []
+    seen = set()
+    for name in names:
+        url = episode_slug_url(name, year)
+        if url not in seen:
+            seen.add(url)
+            urls.append(url)
+    return urls
+
+
 def parse_episode_page(text: str, host: str) -> dict:
     body = extract_body(text)
     lines = body.splitlines()
@@ -210,7 +274,7 @@ def parse_episode_page(text: str, host: str) -> dict:
             "episodeTeaser": "",
             "episodeDescription": "",
             "hostBio": "",
-            "imageUrl": parse_image_url(text),
+            "imageUrl": parse_portrait_url(text) or parse_image_url(text),
             "previousSommarYears": parse_previous_sommar_years(text, host),
         }
 
@@ -225,7 +289,7 @@ def parse_episode_page(text: str, host: str) -> dict:
         "episodeTeaser": episode_teaser,
         "episodeDescription": episode_description,
         "hostBio": host_bio,
-        "imageUrl": parse_image_url(text),
+        "imageUrl": parse_portrait_url(text) or parse_image_url(text),
         "previousSommarYears": parse_previous_sommar_years(text, host),
     }
 
@@ -283,11 +347,14 @@ def is_rate_limit_or_error(content: str) -> bool:
     return False
 
 
-def is_valid_fixture(content: str, host: str) -> bool:
+def is_valid_fixture(content: str, host: str, alt_hosts: tuple = ()) -> bool:
     if is_rate_limit_or_error(content):
         return False
     body = extract_body(content)
-    return f"# {host}" in body
+    for name in (host, *alt_hosts):
+        if name and f"# {name}" in body:
+            return True
+    return False
 
 
 def classify_fixture(path, host: str) -> str:

@@ -12,7 +12,7 @@ def build_episodes(year: int, source_url: str) -> list[dict]:
 
     for entry in entries:
         episode = discover_entry_to_episode(entry, source_url)
-        enriched = enrich_episode_from_fixture(entry, fixture_dir)
+        enriched = enrich_episode_from_fixture(entry, fixture_dir, year)
         episodes.append(apply_enrichment(episode, enriched))
 
     return episodes
@@ -34,6 +34,7 @@ def run_validate(year: int, source_url: str) -> dict:
     api_success = status_counts["partial"] + status_counts["complete"]
 
     field_counts = {
+        "hostPortraitUrl": _count_present(episodes, "hostPortraitUrl"),
         "imageUrl": _count_present(episodes, "imageUrl"),
         "shortDescription": _count_present(episodes, "shortDescription"),
         "longDescription": _count_present(episodes, "longDescription"),
@@ -55,7 +56,8 @@ def run_validate(year: int, source_url: str) -> dict:
     print(f"API failed: {status_counts['api_failed']}")
     print(f"Partial: {status_counts['partial']}")
     print(f"Complete: {status_counts['complete']}")
-    print(f"Images: {field_counts['imageUrl']}")
+    print(f"Host portraits: {field_counts['hostPortraitUrl']}")
+    print(f"Episode images: {field_counts['imageUrl']}")
     print(f"Short descriptions: {field_counts['shortDescription']}")
     print(f"Long descriptions: {field_counts['longDescription']}")
     print(f"About host: {field_counts['aboutHost']}")

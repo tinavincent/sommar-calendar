@@ -9,7 +9,19 @@ from typing import Optional
 from sr_parser import sanitize_episode_description, sanitize_host_bio
 
 SR_API_EPISODE_URL = "https://api.sr.se/api/v2/episodes/{episode_id}?format=json"
-IMPORTANT_ENRICH_FIELDS = ("imageUrl", "shortDescription", "longDescription", "aboutHost")
+GENERIC_PROGRAM_IMAGE_ID = "26c851eb-70be-4004-b06d-a7bcc792c959"
+IMPORTANT_ENRICH_FIELDS = ("shortDescription", "longDescription", "aboutHost")
+
+
+def is_generic_program_image(url: str) -> bool:
+    return bool(url) and GENERIC_PROGRAM_IMAGE_ID in url
+
+
+def resolve_api_image_url(episode: dict) -> Optional[str]:
+    image_url = episode.get("imageurltemplate") or episode.get("imageurl")
+    if not image_url or is_generic_program_image(image_url):
+        return None
+    return image_url.split("?")[0]
 
 
 def extract_episode_id(episode_url: str) -> Optional[str]:
@@ -117,6 +129,7 @@ def extract_broadcast_date(episode: dict) -> Optional[str]:
 def empty_enrichment(enrich_status: str = "api_failed") -> dict:
     return {
         "imageUrl": None,
+        "hostPortraitUrl": None,
         "shortDescription": None,
         "longDescription": None,
         "aboutHost": None,
@@ -128,22 +141,30 @@ def empty_enrichment(enrich_status: str = "api_failed") -> dict:
     }
 
 
+def has_portrait(enriched: dict) -> bool:
+    portrait = enriched.get("hostPortraitUrl")
+    if portrait and not is_generic_program_image(portrait):
+        return True
+    image_url = enriched.get("imageUrl")
+    return bool(image_url) and not is_generic_program_image(image_url)
+
+
 def compute_enrich_status(enriched: dict) -> str:
     if enriched.get("enrichStatus") == "api_failed":
         return "api_failed"
-    if all(enriched.get(field) for field in IMPORTANT_ENRICH_FIELDS):
+    if has_portrait(enriched) and all(enriched.get(field) for field in IMPORTANT_ENRICH_FIELDS):
         return "complete"
     return "partial"
 
 
 def map_api_episode(episode: dict, host: str) -> dict:
     text_fields = parse_api_text_fields(episode.get("text", ""), episode.get("title") or host)
-    image_url = episode.get("imageurltemplate") or episode.get("imageurl")
     short_description = (episode.get("description") or "").strip() or None
     program = episode.get("program") or {}
 
     enriched = {
-        "imageUrl": image_url or None,
+        "imageUrl": resolve_api_image_url(episode),
+        "hostPortraitUrl": None,
         "shortDescription": short_description,
         "longDescription": text_fields["longDescription"],
         "aboutHost": text_fields["aboutHost"],

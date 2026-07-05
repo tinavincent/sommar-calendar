@@ -8,6 +8,7 @@ from season_import.discover import run_discover
 from season_import.enrich import run_enrich
 from season_import.export import run_export
 from season_import.paths import DEFAULT_SOURCE_URL_2026, MAX_ENRICH_PER_RUN
+from season_import.portraits import run_refresh_portraits
 from season_import.validate import run_validate
 
 
@@ -23,7 +24,7 @@ def main() -> None:
     parser.add_argument("--url", help="Presentation page URL")
     parser.add_argument(
         "--step",
-        choices=["discover", "enrich", "validate", "export", "all"],
+        choices=["discover", "enrich", "refresh-portraits", "validate", "export", "all"],
         default="all",
         help="Pipeline step to run (default: all)",
     )
@@ -56,6 +57,14 @@ def main() -> None:
         result = run_enrich(args.year, limit=args.limit)
         if result["failed"]:
             print("\nEnrich failures this run:")
+            for item in result["failed"]:
+                print(f"  - {item['host']}: {item['episodeUrl']}")
+
+    if step == "refresh-portraits":
+        print("\n--- Refresh portraits ---")
+        result = run_refresh_portraits(args.year, limit=args.limit)
+        if result["failed"]:
+            print("\nPortrait refresh failures this run:")
             for item in result["failed"]:
                 print(f"  - {item['host']}: {item['episodeUrl']}")
 

@@ -13,6 +13,7 @@ def empty_season_episode(name: str, date: str, episode_url: str, presentation_ur
         "date": date,
         "episodeUrl": episode_url,
         "imageUrl": None,
+        "hostPortraitUrl": None,
         "shortDescription": None,
         "longDescription": None,
         "aboutHost": None,
@@ -43,6 +44,7 @@ def apply_enrichment(episode: dict, enriched: dict) -> dict:
     merged = episode.copy()
     for field in (
         "imageUrl",
+        "hostPortraitUrl",
         "shortDescription",
         "longDescription",
         "aboutHost",
@@ -89,6 +91,7 @@ def season_episode_to_legacy(episode: dict, year: int) -> dict:
         "hostBio": _legacy_value(episode.get("aboutHost")),
         "previousSommarYears": episode.get("previousSommarYears") or [],
         "imageUrl": _legacy_value(episode.get("imageUrl")),
+        "hostPortraitUrl": _legacy_value(episode.get("hostPortraitUrl")),
     }
 
 

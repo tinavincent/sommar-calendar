@@ -16,6 +16,7 @@ from season_import.paths import (
     discover_cache,
     fixtures_dir,
     list_fixture,
+    portraits_cache,
 )
 from sr_api import (
     IMPORTANT_ENRICH_FIELDS,
@@ -33,6 +34,7 @@ from sr_parser import (
     is_valid_fixture,
     parse_enriched_episode,
     parse_list_page,
+    parse_portrait_url,
 )
 
 
@@ -76,27 +78,43 @@ def fetch_api_episode(episode_id: str) -> tuple[Optional[dict], Optional[str]]:
     return payload, None
 
 
-def fill_missing_from_html_fixture(enriched: dict, entry: dict, fixture_dir) -> dict:
+def load_portraits_cache(year: int) -> dict:
+    path = portraits_cache(year)
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def fill_missing_from_html_fixture(
+    enriched: dict, entry: dict, fixture_dir, year: int
+) -> dict:
     if enriched.get("enrichStatus") == "api_failed":
-        return enriched
-    if all(enriched.get(field) for field in IMPORTANT_ENRICH_FIELDS):
         return enriched
 
     html_path = fixture_path_for(fixture_dir, entry["srUrl"])
-    if not html_path.exists():
-        return enriched
+    if html_path.exists():
+        content = html_path.read_text(encoding="utf-8", errors="ignore")
+        if is_valid_fixture(content, entry["host"]):
+            portrait_url = parse_portrait_url(content)
+            if portrait_url:
+                enriched["hostPortraitUrl"] = portrait_url
 
-    content = html_path.read_text(encoding="utf-8", errors="ignore")
-    if not is_valid_fixture(content, entry["host"]):
-        return enriched
+            parsed = parse_enriched_episode(content, entry["host"])
+            for field in IMPORTANT_ENRICH_FIELDS:
+                if enriched.get(field) is None and parsed.get(field):
+                    enriched[field] = parsed[field]
 
-    parsed = parse_enriched_episode(content, entry["host"])
-    for field in IMPORTANT_ENRICH_FIELDS:
-        if enriched.get(field) is None and parsed.get(field):
-            enriched[field] = parsed[field]
+            if enriched.get("previousSommarYears") is None and parsed.get("previousSommarYears"):
+                enriched["previousSommarYears"] = parsed["previousSommarYears"]
 
-    if enriched.get("previousSommarYears") is None and parsed.get("previousSommarYears"):
-        enriched["previousSommarYears"] = parsed["previousSommarYears"]
+    episode_id = extract_episode_id(entry["srUrl"])
+    if episode_id and not enriched.get("hostPortraitUrl"):
+        cached_portrait = load_portraits_cache(year).get(episode_id)
+        if cached_portrait:
+            enriched["hostPortraitUrl"] = cached_portrait
 
     enriched["enrichStatus"] = compute_enrich_status(enriched)
     return enriched
@@ -127,7 +145,7 @@ def fetch_episode_api(entry: dict, fixture_dir) -> str:
     return "fetched"
 
 
-def enrich_episode_from_fixture(entry: dict, fixture_dir) -> dict:
+def enrich_episode_from_fixture(entry: dict, fixture_dir, year: int = 2026) -> dict:
     episode_id = extract_episode_id(entry["srUrl"])
     if not episode_id:
         return empty_enrichment("api_failed")
@@ -141,7 +159,7 @@ def enrich_episode_from_fixture(entry: dict, fixture_dir) -> dict:
         return empty_enrichment("api_failed")
 
     enriched = parse_api_fixture(raw, entry["host"])
-    enriched = fill_missing_from_html_fixture(enriched, entry, fixture_dir)
+    enriched = fill_missing_from_html_fixture(enriched, entry, fixture_dir, year)
     enriched["enrichStatus"] = compute_enrich_status(enriched)
     return enriched
 
