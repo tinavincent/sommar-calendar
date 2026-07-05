@@ -1,78 +1,55 @@
 #!/usr/bin/env python3
-"""Fetch Sommar i P1 2026 host dates and write them to data/sommar-2026.json."""
+"""Build data/sommar-2026.json from list + episode fixtures."""
 
 import json
-import re
 import sys
-import urllib.request
 from pathlib import Path
+
+from sr_parser import (
+    audit_fixtures,
+    build_episode,
+    classify_fixture,
+    fixture_path_for,
+    parse_list_page,
+    print_fixture_summary,
+    print_summary,
+)
 
 ROOT = Path(__file__).parent
 OUTPUT = ROOT / "data" / "sommar-2026.json"
-SOURCE_URL = "https://www.sverigesradio.se/artikel/sommarpratare-2026-hela-listan"
-FALLBACK_URL = "https://r.jina.ai/http://www.sverigesradio.se/artikel/sommarpratare-2026-hela-listan"
-MONTHS = {
-    "juni": 6,
-    "jun": 6,
-    "juli": 7,
-    "jul": 7,
-    "augusti": 8,
-    "aug": 8,
-}
-
-
-def fetch_url(url: str) -> str:
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "Mozilla/5.0",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        },
-    )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", "ignore")
-
-
-def normalize_markdown(text: str) -> str:
-    # Collapse soft line wraps but keep paragraph breaks.
-    return re.sub(r"(?<!\n)\n(?!\n)", " ", text)
-
-
-def parse_schedule(text: str) -> list[dict]:
-    normalized = normalize_markdown(text)
-    pattern = re.compile(
-        r"(?i)(\d{1,2})\s+(juni|jun|juli|jul|augusti|aug):\s+\[([^\]]+)\]\(([^)]+)\)"
-    )
-    entries = []
-
-    for day, month_name, host, url in pattern.findall(normalized):
-        month = MONTHS[month_name.lower()]
-        date = f"2026-{month:02d}-{int(day):02d}"
-
-        match = re.search(r"/avsnitt/(\d+)", url)
-        if match:
-            url = f"https://www.sverigesradio.se/avsnitt/{match.group(1)}"
-
-        entries.append({"date": date, "host": host.strip(), "url": url.strip()})
-
-    if not entries:
-        raise ValueError("Could not parse any schedule entries from source content.")
-
-    entries.sort(key=lambda item: item["date"])
-    return entries
+FIXTURES_DIR = ROOT / "fixtures" / "full"
+LIST_FIXTURE = FIXTURES_DIR / "list-page.txt"
 
 
 def main() -> None:
-    try:
-        source = fetch_url(SOURCE_URL)
-    except Exception as first_exc:
-        print(f"Direct fetch failed: {first_exc!r}. Falling back to proxy.", file=sys.stderr)
-        source = fetch_url(FALLBACK_URL)
+    if not LIST_FIXTURE.exists():
+        print(f"Missing list fixture: {LIST_FIXTURE}", file=sys.stderr)
+        print("Run: python3 fetch_fixtures.py --refresh-list", file=sys.stderr)
+        sys.exit(1)
 
-    episodes = parse_schedule(source)
+    list_entries = parse_list_page(LIST_FIXTURE.read_text(encoding="utf-8"))
+    audit = audit_fixtures(list_entries, FIXTURES_DIR)
+
+    episodes = []
+    failed_urls = []
+
+    for entry in list_entries:
+        path = fixture_path_for(FIXTURES_DIR, entry["srUrl"])
+        status = classify_fixture(path, entry["host"])
+
+        if status == "valid":
+            episode_page = path.read_text(encoding="utf-8")
+        else:
+            episode_page = None
+            failed_urls.append(entry["srUrl"])
+
+        episodes.append(build_episode(entry, episode_page))
+
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(episodes, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote {len(episodes)} episodes to {OUTPUT}")
+
+    print_summary(episodes, OUTPUT, failed_urls)
+    print_fixture_summary(audit)
 
 
 if __name__ == "__main__":

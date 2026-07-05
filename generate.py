@@ -54,28 +54,29 @@ def add_minutes(dt: str, minutes: int) -> str:
     return (parsed + timedelta(minutes=minutes)).strftime("%Y%m%dT%H%M%S")
 
 
-def build_description(host: str, url: str) -> str:
-    return "\n".join(
-        [
-            "Sommar i P1",
-            "",
-            f"Host: {host}",
-            "",
-            "Listen on Sveriges Radio:",
-            url,
-        ]
-    )
+def build_description(host: str, sr_url: str, description: str) -> str:
+    lines = [
+        "Sommar i P1",
+        "",
+        f"Host: {host}",
+    ]
+    if description:
+        lines.extend(["", description])
+    lines.extend(["", "Listen on Sveriges Radio:", sr_url])
+    return "\n".join(lines)
 
 
 def build_event(episode: dict) -> str:
     host = episode["host"]
     date = episode["date"]
-    url = episode.get("url", "")
+    sr_url = episode.get("srUrl", episode.get("url", ""))
+    description = episode.get("episodeTeaser") or episode.get("description", "")
+    episode_id = episode.get("id", f"{date}-sommar-i-p1-{host.lower().replace(' ', '-')}")
 
     dtstart = format_date(date)
     dtend = format_date((datetime.strptime(date, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d"))
     alarm_time = format_datetime(date, 7, 0)
-    uid = f"{date}-sommar-{host.lower().replace(' ', '-')}@sommar-calendar"
+    uid = f"{episode_id}@sommar-calendar"
     dtstamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     lines = [
@@ -85,7 +86,7 @@ def build_event(episode: dict) -> str:
         f"DTSTART;VALUE=DATE:{dtstart}",
         f"DTEND;VALUE=DATE:{dtend}",
         f"SUMMARY:{escape_ics_text(f'Sommar i P1: {host}')}",
-        f"DESCRIPTION:{escape_ics_text(build_description(host, url))}",
+        f"DESCRIPTION:{escape_ics_text(build_description(host, sr_url, description))}",
         "TRANSP:TRANSPARENT",
         "BEGIN:VALARM",
         "ACTION:DISPLAY",
