@@ -13,23 +13,99 @@ Sommarkompis and other apps read the generated JSON files. They do not fetch fro
 
 ## Quick Start
 
+Full import and calendar generation:
+
 ```bash
-# Import a season (discover → enrich → validate → export)
+# 1. Import season (discover → enrich → refresh-portraits → validate → export)
 python3 import_season.py
 
-# Generate calendar file
+# 2. Generate calendar file
 python3 generate.py
+
+# 3. Copy data to Sommarkompis (adjust path if needed)
+cp data/sommar-2026.json ../sommar-kompis/src/data/sommar-2026.json
+```
+
+Then in Sommarkompis:
+
+```bash
+cd ../sommar-kompis
+npm run dev
 ```
 
 Import writes:
 
 - `data/seasons/2026.json` — primary season data for apps
-- `data/sommar-2026.json` — legacy shim for calendar generation
+- `data/sommar-2026.json` — legacy shim for Sommarkompis and calendar generation
 - `data/seasons-index.json` — active season pointer
 
 Calendar output:
 
 - `output/sommar-2026.ics`
+
+---
+
+## Run Everything (End-to-End)
+
+Use this when setting up from scratch or refreshing a full season.
+
+### 1. Import from Sveriges Radio
+
+```bash
+# Discover all episodes from the presentation page
+python3 import_season.py --step discover
+
+# Fetch API metadata (max 5 per run, 5–10s delay between requests)
+python3 import_season.py --step enrich --limit 58
+
+# Fetch host portraits for episodes missing images (max 5 per run)
+python3 import_season.py --step refresh-portraits --limit 58
+
+# Check completeness
+python3 import_season.py --step validate
+
+# Write JSON output files
+python3 import_season.py --step export
+```
+
+Or run discover + enrich + validate + export in one go (portraits must be refreshed separately):
+
+```bash
+python3 import_season.py
+python3 import_season.py --step refresh-portraits --limit 58
+python3 import_season.py --step export
+```
+
+Repeat `enrich` and `refresh-portraits` until validate reports no missing data.
+
+### 2. Generate calendar
+
+```bash
+python3 generate.py
+```
+
+### 3. Sync to Sommarkompis
+
+Sommarkompis reads a local JSON file — there is no automatic sync.
+
+```bash
+cp data/sommar-2026.json ../sommar-kompis/src/data/sommar-2026.json
+cd ../sommar-kompis
+npm run dev
+```
+
+Restart the dev server if it is already running.
+
+### 4. Verify
+
+```bash
+# In sommar-calendar
+python3 import_season.py --step validate
+
+# Expect: 58 episodes, 58 host portraits, 0 API failures
+```
+
+In Sommarkompis (dev mode), the browser console warns about any episodes still missing portraits.
 
 ---
 
@@ -43,14 +119,18 @@ Each season is imported from a Sveriges Radio presentation page, for example:
 Presentation page
       ↓  discover
 Episode list + URLs
-      ↓  enrich
-Episode page metadata
+      ↓  enrich (SR API)
+Episode metadata (JSON fixtures)
+      ↓  refresh-portraits (episode pages, cached)
+Host portrait URLs
       ↓  validate
 Quality report + warnings
       ↓  export
 data/seasons/{year}.json
 data/seasons-index.json
 data/sommar-{year}.json   (legacy shim)
+      ↓  manual copy
+Sommarkompis
 ```
 
 ### Steps
@@ -58,7 +138,8 @@ data/sommar-{year}.json   (legacy shim)
 | Step | Command | What it does |
 |------|---------|--------------|
 | **Discover** | `--step discover` | Fetch/parse presentation page, find all hosts and episode URLs from links |
-| **Enrich** | `--step enrich` | Fetch individual episode pages (max 5 per run, 5–10s delay) |
+| **Enrich** | `--step enrich` | Fetch episode metadata from SR API (`episode-{id}.json`), max 5 per run |
+| **Refresh portraits** | `--step refresh-portraits` | Fetch host portrait URLs from episode pages, max 5 per run |
 | **Validate** | `--step validate` | Report completeness; warnings do not block export |
 | **Export** | `--step export` | Write season JSON, legacy shim, and update `activeSeason` |
 
@@ -73,6 +154,7 @@ Run one step:
 ```bash
 python3 import_season.py --step discover
 python3 import_season.py --step enrich
+python3 import_season.py --step refresh-portraits
 python3 import_season.py --step validate
 python3 import_season.py --step export
 ```
@@ -82,24 +164,29 @@ Options:
 ```bash
 python3 import_season.py --year 2026
 python3 import_season.py --url <presentation-page-url>
-python3 import_season.py --step enrich --limit 3
+python3 import_season.py --step enrich --limit 58
+python3 import_season.py --step refresh-portraits --limit 58
 python3 import_season.py --step discover --refresh-list
 ```
 
 ### Rate limiting
 
-Sveriges Radio may return 403 or rate-limit responses. Enrichment is intentionally slow:
+Sveriges Radio may return 403 or rate-limit responses on HTML pages. The pipeline is intentionally slow:
 
-- Max **5 episode pages per run**
+- Max **5 requests per run** (enrich and refresh-portraits)
 - **5–10 second** delay between requests
-- Valid fixtures are cached and never overwritten
-- Invalid/rate-limited responses are discarded, not saved
+- Valid API fixtures (`episode-{id}.json`) are cached and never overwritten
+- Portraits are cached in `fixtures/full/portraits.json`
+- Cached HTML fixtures (`.txt`) are used as fallback for text fields only
 
-Run enrich multiple times until all fixtures are valid:
+Run enrich and refresh-portraits multiple times until validate reports complete data:
 
 ```bash
-python3 import_season.py --step enrich
+python3 import_season.py --step enrich --limit 58
+python3 import_season.py --step refresh-portraits --limit 58
+python3 import_season.py --step validate
 python3 import_season.py --step export
+cp data/sommar-2026.json ../sommar-kompis/src/data/sommar-2026.json
 ```
 
 ---
@@ -127,10 +214,12 @@ data/
   sommar-2026.json          # legacy shim
 
 fixtures/
-  full/                     # cached SR pages for 2026 (also fixtures/2026/)
+  full/                     # cached SR data for 2026 (also fixtures/2026/)
     list-page.txt
     discover.json
-    episode-{id}.txt
+    episode-{id}.json       # SR API responses
+    episode-{id}.txt        # cached HTML (fallback for text/portraits)
+    portraits.json          # cached host portrait URLs
 
 output/
   sommar-2026.ics
@@ -159,12 +248,17 @@ output/
   "name": "Helena Bergström",
   "date": "2026-06-20",
   "episodeUrl": "https://www.sverigesradio.se/avsnitt/2815462",
-  "imageUrl": "https://image-api.sr.se/v1/static/...",
+  "hostPortraitUrl": "https://image-api.sr.se/v1/static/AA/2071/...",
+  "imageUrl": null,
   "shortDescription": "Skådespelaren om när livet stannade upp...",
-  "longDescription": "",
-  "aboutHost": "",
+  "longDescription": null,
+  "aboutHost": "Hon är en av Sveriges mest folkkära skådespelare...",
+  "duration": 3947,
+  "broadcastDate": "2026-06-20",
+  "programTitle": "Sommar & Vinter i P1",
+  "enrichStatus": "partial",
   "hostEpithet": "skådespelare",
-  "previousSommarYears": [2011],
+  "previousSommarYears": [1992, 2011],
   "source": {
     "presentationPage": "https://www.sverigesradio.se/artikel/sommarpratare-2026-hela-listan",
     "episodePage": "https://www.sverigesradio.se/avsnitt/2815462"
@@ -198,9 +292,10 @@ Parallel format for calendar generation and backward compatibility:
   "srUrl": "https://www.sverigesradio.se/avsnitt/2815462",
   "episodeTeaser": "...",
   "episodeDescription": "",
-  "hostBio": "",
-  "imageUrl": "...",
-  "previousSommarYears": [2011]
+  "hostBio": "...",
+  "hostPortraitUrl": "https://image-api.sr.se/v1/static/AA/2071/...",
+  "imageUrl": "",
+  "previousSommarYears": [1992, 2011]
 }
 ```
 
@@ -210,12 +305,14 @@ Parallel format for calendar generation and backward compatibility:
 
 | Field | Source |
 |-------|--------|
-| `name`, `date`, `hostEpithet`, `episodeUrl` | Presentation page |
-| `imageUrl` | Episode page (first image) |
-| `shortDescription` | Episode page (teaser paragraph) |
-| `longDescription` | Episode page (`## {name} om sitt Sommarprat`) |
-| `aboutHost` | Episode page (bio paragraph) |
-| `previousSommarYears` | Episode page (related episodes) |
+| `name`, `date`, `hostEpithet`, `episodeUrl` | Presentation page (discover) |
+| `shortDescription` / `episodeTeaser` | SR API `description` |
+| `longDescription` / `episodeDescription` | SR API `text` ("om sitt Sommarprat" section) |
+| `aboutHost` / `hostBio` | SR API `text` (bio paragraph) |
+| `hostPortraitUrl` | Episode page HTML or `portraits.json` cache |
+| `imageUrl` | SR API `imageurltemplate` (null if generic program image) |
+| `duration`, `broadcastDate`, `programTitle` | SR API |
+| `previousSommarYears` | SR API `text` or related episodes |
 
 Truncated text ending with `...` or `…` is discarded and stored as empty.
 
@@ -238,8 +335,9 @@ Mutable fields (safe to refresh): `hostEpithet`, descriptions, `imageUrl`, `epis
 | File / directory | Purpose |
 |------------------|---------|
 | `import_season.py` | Main import CLI |
-| `season_import/` | Discover, enrich, validate, export modules |
-| `sr_parser.py` | Shared SR page parsing |
+| `season_import/` | Discover, enrich, validate, export, portraits modules |
+| `sr_api.py` | SR open API parsing |
+| `sr_parser.py` | Shared SR page parsing and portrait extraction |
 | `generate.py` | JSON → ICS calendar |
 | `fetch.py` | Legacy wrapper → export step |
 | `fetch_fixtures.py` | Legacy wrapper → enrich step |
@@ -256,9 +354,26 @@ Sveriges Radio
       ↓
 Sommar Calendar (import pipeline)
       ↓
-data/seasons/{year}.json
+data/sommar-2026.json
+      ↓  cp (manual)
+sommar-kompis/src/data/sommar-2026.json
       ↓
-Sommarkompis
+Sommarkompis (npm run dev)
+```
+
+Sommarkompis field mapping:
+
+| Sommarkompis | sommar-calendar (legacy shim) |
+|--------------|-------------------------------|
+| `hostPortraitUrl` | `hostPortraitUrl` |
+| `episodeTeaser` | `episodeTeaser` / `shortDescription` |
+| `episodeDescription` | `episodeDescription` / `longDescription` |
+| `hostBio` | `hostBio` / `aboutHost` |
+
+After each export, copy the legacy shim:
+
+```bash
+cp data/sommar-2026.json ../sommar-kompis/src/data/sommar-2026.json
 ```
 
 ---
@@ -269,10 +384,10 @@ Active development on branch `episode-details`.
 
 Current focus:
 
-- Rich episode metadata (images, descriptions, bios)
+- API-based enrichment with portrait refresh
+- Rich episode metadata (portraits, descriptions, bios)
 - Multi-season support
 - Stable data contracts for Sommarkompis
-- Incremental, rate-limit-safe enrichment
 
 ---
 
