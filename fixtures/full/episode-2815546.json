@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815546,
+    "title": "Manne af Klintberg",
+    "description": "Clownen Manne om att ge barnen lek, mer lek och ännu mera lek.",
+    "text": "I över 50 år har Manne af Klintberg underhållit på scen och i tv. Han blev Clownen Manne med hela svenska folket genom sina barnprogram för både döva och hörande på SVT. Under karriären har han stått på scen tiotusentals gånger i föreställningar som ”Min bror! Min bror!” och ”Ett rent nöje”. Med bananen som signum och budskapet; att aldrig sluta leka, har han spridit glädje till generationer.\r\nManne af Klintberg om sitt Sommarprat\r\n– Jag vill parafrasera vår kära Astrid Lindgrens råd: Ge barnen lek, mer lek och ännu mera lek så kommer fantasin, empatin, humorn och kreativiteten av sig själv.\r\nProducent: Karin af Klintberg\r\nOm Manne af Klintberg\r\nClown, 80 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815546",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786359600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786359600000)/",
+      "endtimeutc": "/Date(1786365000000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2503937
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

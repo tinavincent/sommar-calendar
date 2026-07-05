@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815547,
+    "title": "Ewa Fröling",
+    "description": "Skådespelaren om hur det tagit ett helt liv att bli till.",
+    "text": "Hon fick sitt stora genombrott i Ingmar Bergmans internationella succéfilm ”Fanny och Alexander” och har en lång och framgångsrik karriär som skådespelare bakom sig. Genom åren har Ewa Fröling medverkat i ett 50-tal filmer och stått på Sveriges främsta teaterscener. Debuterade 2021 med boken ”Moder Liv”, del ett i en självbiografisk trilogi.\r\nEwa Fröling om sitt Sommarprat\r\n– I mitt Sommar pratar jag om att det tog ett helt liv att bli till. Jag är tacksam att jag flyger fortfarande. Det vet jag med säkerhet.\r\nProducent: Ulrika Stenström\r\nOm Ewa Fröling\r\nSkådespelare, 73 år\r\nTidigare Sommarvärd 1988, 1994\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815547",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786446000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786446000000)/",
+      "endtimeutc": "/Date(1786451400000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 373942
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815545,
+    "title": "Åsne Seierstad",
+    "description": "Journalisten och författaren om tiden mellan Sovjetunionens fall och dagens Ryssland.",
+    "text": "Hon har skildrat flera av världens svåraste konflikter genom att följa och berätta om enskilda människors liv. Författaren och journalisten Åsne Seierstad slog igenom brett när hon porträtterade en familj i Kabul. Förra året kom boken ”Ofred”, där centrum för berättelsen är en rysk legosoldat i Rysslands krig mot Ukraina.\r\nÅsne Seierstad om sitt Sommarprat\r\n– Min första resa till Ryssland skedde 1990, året då Sovjetunionen föll. Folk drömde, de hoppades – demokrati, välstånd, frihet. Jag var 20 år. Så kom Putin. Jag återvände till Ryssland efter fullskaleinvasionen 2022 för att se vad som hade skett med landet som en gång fyllts av så många hoppfulla.\r\nProducent: Katarina Svanevik\r\nOm Åsne Seierstad\r\nJournalist, författare, 56 år\r\nTidigare Sommarvärd 2003\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815545",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786273200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786273200000)/",
+      "endtimeutc": "/Date(1786278600000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 381871
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

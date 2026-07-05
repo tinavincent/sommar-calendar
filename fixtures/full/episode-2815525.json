@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815525,
+    "title": "Kajsa Ollongren",
+    "description": "EU:s särskilda representant för mänskliga rättigheter om hur Europa ska förbli säkert – och fritt.",
+    "text": "Hon är tidigare försvarsminister, vice premiärminister och inrikesminister i Nederländerna. Sedan juni 2025 är Kajsa Ollongren EU:s särskilda representant för mänskliga rättigheter. I sin roll arbetar Kajsa Ollongren med att främja efterlevnaden av humanitär rätt och internationell straffrätt samt med att stärka EU:s röst i dialogen om mänskliga rättigheter med omvärlden.\r\nKajsa Ollongren om sitt Sommarprat\r\n– I mitt Sommarprogram berättar jag om hur jag som nybliven försvarsminister väcktes mitt i natten när Ryssland invaderade Ukraina, och vad Europa ska göra mer av för att hålla oss säkra och fria i tider av kris och krig.\r\nProducent: Helena Groll\r\nOm Kajsa Ollongren\r\nEU:s särskilda representant för mänskliga rättigheter, fd nederländsk minister, 59 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815525",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1784804400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1784804400000)/",
+      "endtimeutc": "/Date(1784809680000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2578983
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

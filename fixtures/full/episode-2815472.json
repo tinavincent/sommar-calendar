@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815472,
+    "title": "Johan Eriksson",
+    "description": "Försvarsadvokaten om livet på de anklagades sida.",
+    "text": "Han är ordförande i Advokatsamfundet och har utsetts till ”Advokaternas advokat” av kåren 12 år i rad. Johan Eriksson har agerat försvarare i flera uppmärksammade fall, varit expert i flera statliga utredningar och är ledamot av Åklagarmyndighetens insynsråd. Han är hedersdoktor vid Stockholms universitet och har skrivit flera böcker, däribland ”Handbok för försvarare” och spänningsromanen ”Tjuv och polis”.\r\nProducent: Amanda Glans\r\nOm Johan Eriksson\r\nAdvokat, 62 år \r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815472",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782817200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5278,
+        "publishdateutc": "/Date(1782795600000)/",
+        "id": 10212106,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10212106&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815472)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5278,
+          "publishdateutc": "/Date(1782795600000)/",
+          "id": 10212106,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_johan_eriksson_med_lang_musik_20260622_1158060865_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815472)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782817200000)/",
+      "endtimeutc": "/Date(1782822600000)/"
+    },
+    "listenpodfile": {
+      "title": "Johan Eriksson",
+      "description": "",
+      "filesizeinbytes": 54178070,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782795600000)/",
+      "duration": 3385,
+      "publishdateutc": "/Date(1782817200000)/",
+      "id": 10212051,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_johan_eriksson_podd_20260622_1133186831.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815472)]"
+    },
+    "downloadpodfile": {
+      "title": "Johan Eriksson",
+      "description": "",
+      "filesizeinbytes": 54178070,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782795600000)/",
+      "duration": 3385,
+      "publishdateutc": "/Date(1782817200000)/",
+      "id": 10212051,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_johan_eriksson_podd_20260622_1133186831.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815472)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2700772
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

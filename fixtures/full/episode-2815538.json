@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815538,
+    "title": "David Wiberg",
+    "description": "Skådespelaren om sinnesvidgande humor och att försöka få sitt liv att gå ihop.",
+    "text": "Förutom skådespelare och författare är David Wiberg även komiker, dramatiker och konstnär samt en del av humorkollektivet Varanteatern. Han har tidigare gett ut flera kritikerrosade böcker för läsare i alla åldrar och är nu aktuell med boken ”Sörja”. Under våren aktuell som manusförfattare och skådespelare i pjäsen ”Bön för idioter” på Kulturhuset Stadsteatern och ”Othello” för Sveriges Radio Drama.\r\nDavid Wiberg om sitt Sommarprat\r\n– I mitt Sommar ska jag att prata om sinnesvidgande humor, min senaste roman ”Sörja” och om att inte ha något att berätta men ändå vilja göra det. Och så ska jag försöka få mitt liv att hänga ihop trots att jag har på känn att det inte gör det.\r\nProducent: Isabella Rodriguez\r\nOm David Wiberg\r\nSkådespelare, författare, komiker, 52 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815538",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785754800000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785754800000)/",
+      "endtimeutc": "/Date(1785760200000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2779428
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

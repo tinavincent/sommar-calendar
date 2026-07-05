@@ -1,0 +1,46 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815478,
+    "title": "Erika Bjerström",
+    "description": "Klimatjournalisten om hur demokratins tillbakagång förstärker den globala uppvärmningen.",
+    "text": "Prisad journalist som i över 30 år bevakat Sverige och världen. Erika Bjerström var SVT:s första globala klimatkorrespondent och har rapporterat om klimatfrågan sedan 80-talet. Hon har arbetat som utrikeskorrespondent i EU, Afrika och USA och skrivit fem böcker, senast ”Demokratin dör i hettan” 2025.\r\nErika Bjerström om sitt Sommarprat\r\n– Jag ska prata om hur vår tids stora utmaningar – den globala uppvärmningen och demokratins kris – nu förstärker varandra. Varför det fick mig att säga upp mig från SVT och var jag nu ser vägarna framåt.\r\nProducent: Cecilia Bodström\r\nOm Erika Bjerström\r\nJournalist, 63 år\r\nTidigare Sommarvärd 2009\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815478",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783335600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783335600000)/",
+      "endtimeutc": "/Date(1783341000000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1952959
+      },
+      {
+        "id": 366710
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

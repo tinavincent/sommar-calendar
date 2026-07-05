@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815532,
+    "title": "Martin Peterson",
+    "description": "Filosofiprofessorn om att censureras när han undervisar i dagens USA.",
+    "text": "Filosofiprofessorn från Stockholm uppmärksammades i världspressen när hans undervisning om Platons ”Gästabudet” stoppades av universitetsledningen i Texas, med hänvisning till att verket skildrar homosexuella relationer. Martin Peterson blev därmed en symbol för Trump-regimens angrepp på den akademiska friheten. Samtidigt ställdes själva anledningen till att han som akademiker sökt sig till USA, på sin spets.\r\nMartin Peterson om sitt Sommarprat\r\n– Jag ska prata om hur Platon blev censurerad i min filosofiundervisning i Texas och hur detta under några veckor uppmärksammades världen över, vad jag tycker det säger om världens syn på Texas – och hur hela situationen påverkade mig.\r\nProducent: Therése Lager\r\nOm Martin Peterson\r\nProfessor i filosofi, 50 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815532",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785322800000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785322800000)/",
+      "endtimeutc": "/Date(1785328200000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1518808
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

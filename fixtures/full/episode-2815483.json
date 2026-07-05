@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815483,
+    "title": "Sebastian Siemiatkowski",
+    "description": "Klarnas vd om att se någon man älskar långsamt gå under.",
+    "text": "Han är medgrundare och vd för betaltjänsten Klarna. Sedan starten 2005 har företaget växt till att bli ett av världens största fintechbolag och hösten 2025 börsnoterades Klarna i New York. Sebastian Siemiatkowski är en röst i debatten om AI och har varnat för snabba förändringar på arbetsmarknaden.\r\nSebastian Siemiatkowski om sitt Sommarprat\r\n– Mitt Sommar handlar om motvinden i Uppsala, att se någon man älskar långsamt gå under och den eviga undran om vad som döljer sig bakom nästa kulle.\r\nProducent: Fabian Asserbäck\r\nOm Sebastian Siemiatkowski\r\nGrundare och vd Klarna, 44 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815483",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783508400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783508400000)/",
+      "endtimeutc": "/Date(1783513800000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1518770
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

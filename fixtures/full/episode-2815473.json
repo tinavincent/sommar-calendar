@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815473,
+    "title": "Sarah Sheppard",
+    "description": "Barnboksförfattaren om evolutionen, dinosaurier och en skoltrött Charles Darwin.",
+    "text": "Hon utsågs till Årets folkbildare av Föreningen Vetenskap och Folkbildning ”för att hon skickligt förenar vetenskaplig noggrannhet med pedagogisk lekfullhet”. Debuten ”Det var en gång... Massor av dinosaurier” nominerades till Augustpriset för bästa barn- och ungdomsbok. Sarah Sheppard har också tilldelats Carl von Linné-plaketten för sin samlade produktion.\r\nProducent: Amanda Glans\r\nOm Sarah Sheppard\r\nBarnboksförfattare, illustratör, 54 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815473",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782903600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5280,
+        "publishdateutc": "/Date(1782882000000)/",
+        "id": 10212110,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10212110&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815473)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5280,
+          "publishdateutc": "/Date(1782882000000)/",
+          "id": 10212110,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_sarah_sheppard_med_lang_musik_20260622_1159001029_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815473)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782903600000)/",
+      "endtimeutc": "/Date(1782909000000)/"
+    },
+    "listenpodfile": {
+      "title": "Sarah Sheppard",
+      "description": "",
+      "filesizeinbytes": 54996006,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782882000000)/",
+      "duration": 3436,
+      "publishdateutc": "/Date(1782903600000)/",
+      "id": 10212052,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_sarah_sheppard_20260622_1135260566.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815473)]"
+    },
+    "downloadpodfile": {
+      "title": "Sarah Sheppard",
+      "description": "",
+      "filesizeinbytes": 54996006,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782882000000)/",
+      "duration": 3436,
+      "publishdateutc": "/Date(1782903600000)/",
+      "id": 10212052,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_sarah_sheppard_20260622_1135260566.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815473)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2741050
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

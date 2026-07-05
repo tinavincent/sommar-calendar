@@ -1,0 +1,95 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815475,
+    "title": "Ann Heberlein",
+    "description": "Författaren berättar om hur samhället svek hennes faster och undrar vem som offras idag.",
+    "text": "Hon är teologie doktor i etik, kolumnist i Expressen och samhällsdebattör. Ann Heberlein fick sitt stora genombrott med självbiografin ”Jag vill inte dö, jag vill bara inte leva” där hon berättade om hur det är att leva med bipolär sjukdom. Sedan dess har hon givit ut en rad böcker på temat etik och moral men även deckare under pseudonymen Helena Herbert.\r\nAnn Heberlein om sitt Sommarprat\r\n– Jag ska berätta om min faster Gunnel som var en av de sista att tvångssteriliseras i Sverige, ett mörkt kapitel i svensk historia. Mitt Sommarprat handlar om vad som offrades i ivern att skapa ett sunt samhälle – och ställer frågan vad och vem vi offrar idag.\r\nProducent: Lars Mogensen\r\nOm Ann Heberlein\r\nFörfattare, teologie doktor i etik, 56 år\r\nTidigare Sommarvärd 2009\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815475",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783076400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/50af8a23-3c08-49ae-b6e4-de81832a5084.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/50af8a23-3c08-49ae-b6e4-de81832a5084.jpg",
+    "photographer": "Lina Arvidsson",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5312,
+        "publishdateutc": "/Date(1783054800000)/",
+        "id": 10220199,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10220199&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815475)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5312,
+          "publishdateutc": "/Date(1783054800000)/",
+          "id": 10220199,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_ann_heberlein_med_lang_musik_20260630_1346189756_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815475)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783076400000)/",
+      "endtimeutc": "/Date(1783081800000)/"
+    },
+    "listenpodfile": {
+      "title": "Ann Heberlein",
+      "description": "",
+      "filesizeinbytes": 54172312,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1783054800000)/",
+      "duration": 3385,
+      "publishdateutc": "/Date(1783076400000)/",
+      "id": 10220206,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_ann_heberlein_podd_ny_20260630_1343552122.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815475)]"
+    },
+    "downloadpodfile": {
+      "title": "Ann Heberlein",
+      "description": "",
+      "filesizeinbytes": 54172312,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1783054800000)/",
+      "duration": 3385,
+      "publishdateutc": "/Date(1783076400000)/",
+      "id": 10220206,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_ann_heberlein_podd_ny_20260630_1343552122.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815475)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2504017
+      },
+      {
+        "id": 366909
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

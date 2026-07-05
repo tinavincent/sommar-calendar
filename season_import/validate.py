@@ -18,38 +18,47 @@ def build_episodes(year: int, source_url: str) -> list[dict]:
     return episodes
 
 
+def _count_present(episodes: list[dict], field: str) -> int:
+    return sum(1 for episode in episodes if episode.get(field))
+
+
 def run_validate(year: int, source_url: str) -> dict:
     episodes = build_episodes(year, source_url)
     total = len(episodes)
 
-    counts = {
-        "episodes": total,
-        "imageUrl": sum(1 for ep in episodes if ep.get("imageUrl")),
-        "shortDescription": sum(1 for ep in episodes if ep.get("shortDescription")),
-        "longDescription": sum(1 for ep in episodes if ep.get("longDescription")),
-        "aboutHost": sum(1 for ep in episodes if ep.get("aboutHost")),
+    status_counts = {
+        "api_failed": sum(1 for ep in episodes if ep.get("enrichStatus") == "api_failed"),
+        "partial": sum(1 for ep in episodes if ep.get("enrichStatus") == "partial"),
+        "complete": sum(1 for ep in episodes if ep.get("enrichStatus") == "complete"),
+    }
+    api_success = status_counts["partial"] + status_counts["complete"]
+
+    field_counts = {
+        "imageUrl": _count_present(episodes, "imageUrl"),
+        "shortDescription": _count_present(episodes, "shortDescription"),
+        "longDescription": _count_present(episodes, "longDescription"),
+        "aboutHost": _count_present(episodes, "aboutHost"),
     }
 
     warnings = []
-    if counts["imageUrl"] < total:
-        warnings.append(f"Missing imageUrl on {total - counts['imageUrl']} episode(s)")
-    if counts["shortDescription"] < total:
-        warnings.append(
-            f"Missing shortDescription on {total - counts['shortDescription']} episode(s)"
-        )
-    if counts["longDescription"] < total:
-        warnings.append(
-            f"Missing longDescription on {total - counts['longDescription']} episode(s)"
-        )
-    if counts["aboutHost"] < total:
-        warnings.append(f"Missing aboutHost on {total - counts['aboutHost']} episode(s)")
+    if status_counts["api_failed"]:
+        warnings.append(f"API failed for {status_counts['api_failed']} episode(s)")
+    if status_counts["partial"]:
+        warnings.append(f"Partial enrichment for {status_counts['partial']} episode(s)")
+    for field, count in field_counts.items():
+        if count < total:
+            warnings.append(f"Missing {field} on {total - count} episode(s)")
 
     print("\n=== Validation ===")
-    print(f"Episodes: {counts['episodes']}")
-    print(f"Images: {counts['imageUrl']}")
-    print(f"Short descriptions: {counts['shortDescription']}")
-    print(f"Long descriptions: {counts['longDescription']}")
-    print(f"About host: {counts['aboutHost']}")
+    print(f"Episodes: {total}")
+    print(f"API succeeded: {api_success}")
+    print(f"API failed: {status_counts['api_failed']}")
+    print(f"Partial: {status_counts['partial']}")
+    print(f"Complete: {status_counts['complete']}")
+    print(f"Images: {field_counts['imageUrl']}")
+    print(f"Short descriptions: {field_counts['shortDescription']}")
+    print(f"Long descriptions: {field_counts['longDescription']}")
+    print(f"About host: {field_counts['aboutHost']}")
 
     if warnings:
         print("\nWarnings:")
@@ -58,4 +67,13 @@ def run_validate(year: int, source_url: str) -> dict:
     else:
         print("\nNo warnings.")
 
-    return {"counts": counts, "warnings": warnings, "episodes": episodes}
+    return {
+        "counts": {
+            "episodes": total,
+            "api_success": api_success,
+            **status_counts,
+            **field_counts,
+        },
+        "warnings": warnings,
+        "episodes": episodes,
+    }

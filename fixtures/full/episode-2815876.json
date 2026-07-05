@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815876,
+    "title": "Sofia Dalén",
+    "description": "Komikern kliver ur sin komfortzon.",
+    "text": "Mångsysslaren Sofia Dalén arbetar med tv och radio och har tävlat i ”Bäst i test” och ”På spåret”. Hon ligger bakom intervjuprogrammet ”Paradrätten” tillsammans med Kalle Möller och har programlett ”Musikhjälpen”. På scen har hon underhållit i bland annat ”hahaharevyn” och i Åkersbergarevyn och tillsammans med Karolina Widerström driver hon podden ”Inte ska väl jag”.\r\nSofia Dalén om sitt Sommarprat\r\n– Jag skrev ett Sommarprat under tre månaders tid. Detta är inte det.\r\nProducent: Robin Muhr\r\nOm Sofia Dalén\r\nKomiker, 35 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815876",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786705200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786705200000)/",
+      "endtimeutc": "/Date(1786710600000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1518792
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

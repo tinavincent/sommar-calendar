@@ -1,0 +1,101 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815477,
+    "title": "Marie Göranzon",
+    "description": "Skådespelaren berättar om gamla vänner, roliga situationer och så bränner hon av någonting.",
+    "text": "En av Sveriges mest framstående skådespelare med över 50 år i Dramatens ensemble. Hon har medverkat i ett 50-tal pjäser, bland annat i Tjechovs ”Måsen” och titelrollen i Strindbergs ”Fröken Julie”. Marie Göranzon har spelat i klassiska filmer som ”Falsk som vatten”, ”Dag och Natt” och i rollen som polischef Margareta Oberg i Beck-filmerna. 2024 tilldelades hon Guldbaggens hederspris.\r\nProducent: Henrik Johnsson\r\nOm Marie Göranzon\r\nSkådespelare, 83 år\r\nTidigare Sommarvärd 1982, 1986, 2012\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815477",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783249200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5232,
+        "publishdateutc": "/Date(1783227600000)/",
+        "id": 10219909,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10219909&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815477)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5232,
+          "publishdateutc": "/Date(1783227600000)/",
+          "id": 10219909,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_marie_goranzon_med_lang_musik_20260630_1032068871_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815477)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783249200000)/",
+      "endtimeutc": "/Date(1783254600000)/"
+    },
+    "listenpodfile": {
+      "title": "Marie Göranzon",
+      "description": "",
+      "filesizeinbytes": 56093463,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1783227600000)/",
+      "duration": 3505,
+      "publishdateutc": "/Date(1783249200000)/",
+      "id": 10219912,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_marie_goranzon_podd_20260630_1028307445.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815477)]"
+    },
+    "downloadpodfile": {
+      "title": "Marie Göranzon",
+      "description": "",
+      "filesizeinbytes": 56093463,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1783227600000)/",
+      "duration": 3505,
+      "publishdateutc": "/Date(1783249200000)/",
+      "id": 10219912,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_marie_goranzon_podd_20260630_1028307445.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815477)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2578993
+      },
+      {
+        "id": 116726
+      },
+      {
+        "id": 416443
+      },
+      {
+        "id": 416442
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815466,
+    "title": "Jonas Bonnier",
+    "description": "Författaren avslöjar en hemlighet han burit på i många år.",
+    "text": "Han har skrivit succéromanerna ”Helikopterrånet” och ”Knutby” som båda blivit tv-serier. Vid sidan av författarskapet doktorerar han på Handelshögskolan om värdet av originalitet. Jonas Bonnier är ordförande för Stora Journalistpriset, kolumnist i Expressen och har även programlett ”Talkshow i P1”.\r\nProducent: Fabian Asserbäck\r\nOm Jonas Bonnier\r\nFörfattare, 62 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815466",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782298800000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5315,
+        "publishdateutc": "/Date(1782277200000)/",
+        "id": 10208405,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10208405&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815466)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5315,
+          "publishdateutc": "/Date(1782277200000)/",
+          "id": 10208405,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_jonas_bonnier_med_lang_musik_20260617_1436203558_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815466)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782298800000)/",
+      "endtimeutc": "/Date(1782304200000)/"
+    },
+    "listenpodfile": {
+      "title": "Jonas Bonnier",
+      "description": "",
+      "filesizeinbytes": 56800789,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782277200000)/",
+      "duration": 3549,
+      "publishdateutc": "/Date(1782298800000)/",
+      "id": 10208407,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_jonas_bonnier_podd_20260617_1431268233.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815466)]"
+    },
+    "downloadpodfile": {
+      "title": "Jonas Bonnier",
+      "description": "",
+      "filesizeinbytes": 56800789,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782277200000)/",
+      "duration": 3549,
+      "publishdateutc": "/Date(1782298800000)/",
+      "id": 10208407,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_jonas_bonnier_podd_20260617_1431268233.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815466)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 382405
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

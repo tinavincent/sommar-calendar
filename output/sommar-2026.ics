@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-06-20-sommar-i-p1-helena-bergstrom@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 SUMMARY:Sommar i P1: Helena Bergström
@@ -38,7 +38,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-21-sommar-i-p1-sebastian-ingrosso@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
 SUMMARY:Sommar i P1: Sebastian Ingrosso
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-22-sommar-i-p1-martin-kragh@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260622
 DTEND;VALUE=DATE:20260623
 SUMMARY:Sommar i P1: Martin Kragh
@@ -66,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-23-sommar-i-p1-amanda-romare@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20260624
 SUMMARY:Sommar i P1: Amanda Romare
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-24-sommar-i-p1-jonas-bonnier@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:Sommar i P1: Jonas Bonnier
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-25-sommar-i-p1-jonas-gren@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Sommar i P1: Jonas Gren
@@ -108,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-26-sommar-i-p1-carolina-dybeck-happe@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Sommar i P1: Carolina Dybeck Happe
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-27-sommar-i-p1-alexander-karim@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260628
 SUMMARY:Sommar i P1: Alexander Karim
@@ -136,7 +136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-28-sommar-i-p1-ginna-lindberg@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260629
 SUMMARY:Sommar i P1: Ginna Lindberg
@@ -150,7 +150,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-29-sommar-i-p1-patrik-norqvist@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 SUMMARY:Sommar i P1: Patrik Norqvist
@@ -164,7 +164,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-30-sommar-i-p1-johan-eriksson@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Sommar i P1: Johan Eriksson
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-01-sommar-i-p1-sarah-sheppard@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Sommar i P1: Sarah Sheppard
@@ -192,7 +192,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-02-sommar-i-p1-maria-maunsbach@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:Sommar i P1: Maria Maunsbach
@@ -206,7 +206,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-03-sommar-i-p1-ann-heberlein@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 SUMMARY:Sommar i P1: Ann Heberlein
@@ -220,7 +220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-04-sommar-i-p1-olof-wretling@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:Sommar i P1: Olof Wretling
@@ -234,7 +234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-05-sommar-i-p1-marie-goranzon@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260705
 DTEND;VALUE=DATE:20260706
 SUMMARY:Sommar i P1: Marie Göranzon
@@ -248,7 +248,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-06-sommar-i-p1-erika-bjerstrom@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260706
 DTEND;VALUE=DATE:20260707
 SUMMARY:Sommar i P1: Erika Bjerström
@@ -262,7 +262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-07-sommar-i-p1-behrang-safari@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
 SUMMARY:Sommar i P1: Behrang Safari
@@ -276,7 +276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-08-sommar-i-p1-sebastian-siemiatkowski@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 SUMMARY:Sommar i P1: Sebastian Siemiatkowski
@@ -290,7 +290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-09-sommar-i-p1-evelyn-mok@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:Sommar i P1: Evelyn Mok
@@ -304,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-10-sommar-i-p1-carl-skau@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Sommar i P1: Carl Skau
@@ -318,7 +318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-11-sommar-i-p1-amanda-jansson@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260711
 DTEND;VALUE=DATE:20260712
 SUMMARY:Sommar i P1: Amanda Jansson
@@ -332,7 +332,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-12-sommar-i-p1-martin-modeus@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
 SUMMARY:Sommar i P1: Martin Modéus
@@ -346,7 +346,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-13-sommar-i-p1-emil-hansius@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:Sommar i P1: Emil Hansius
@@ -360,7 +360,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-14-sommar-i-p1-ebba-kleberg-von-sydow@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
 SUMMARY:Sommar i P1: Ebba Kleberg von Sydow
@@ -374,7 +374,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-15-sommar-i-p1-bettan-byvald@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Sommar i P1: Bettan Byvald
@@ -388,11 +388,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-16-sommar-i-p1-elaf-ali@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260716
 DTEND;VALUE=DATE:20260717
 SUMMARY:Sommar i P1: Elaf Ali
-DESCRIPTION:Sommar i P1\n\nHost: Elaf Ali\n\nJournalisten avslöjar världens bäst bevarade hemlighet.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815517
+DESCRIPTION:Sommar i P1\n\nHost: Elaf Ali\n\nJournalisten om att formas av kontrollerande system och vad som händer när man slutar lyda.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815517
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -402,7 +402,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-17-sommar-i-p1-anders-rosengren@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:Sommar i P1: Anders Rosengren
@@ -416,7 +416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-18-sommar-i-p1-jan-rippe@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
 SUMMARY:Sommar i P1: Jan Rippe
@@ -430,7 +430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-19-sommar-i-p1-ruth-kvarnstrom-jones@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260720
 SUMMARY:Sommar i P1: Ruth Kvarnström-Jones
@@ -444,7 +444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-20-sommar-i-p1-iqra-idow@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260721
 SUMMARY:Sommar i P1: Iqra Idow
@@ -458,7 +458,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-21-sommar-i-p1-maria-sid@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:Sommar i P1: Maria Sid
@@ -472,7 +472,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-22-sommar-i-p1-robin-larmerus@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 SUMMARY:Sommar i P1: Robin Larmérus
@@ -486,7 +486,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-23-sommar-i-p1-kajsa-ollongren@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
 SUMMARY:Sommar i P1: Kajsa Ollongren
@@ -500,11 +500,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-24-sommar-i-p1-sara-vide-ericson@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:Sommar i P1: Sara-Vide Ericson
-DESCRIPTION:Sommar i P1\n\nHost: Sara-Vide Ericson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815548
+DESCRIPTION:Sommar i P1\n\nHost: Sara-Vide Ericson\n\nKonstnären om att ge allt till måleriet.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815548
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -514,7 +514,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-25-sommar-i-p1-joel-kinnaman@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
 SUMMARY:Sommar i P1: Joel Kinnaman
@@ -528,11 +528,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-26-sommar-i-p1-sven-hagstromer@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 SUMMARY:Sommar i P1: Sven Hagströmer
-DESCRIPTION:Sommar i P1\n\nHost: Sven Hagströmer\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815529
+DESCRIPTION:Sommar i P1\n\nHost: Sven Hagströmer\n\nFinansmannen om politik och sådant som angår hela svenska folkets ekonomi.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815529
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -542,7 +542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-27-sommar-i-p1-ebba-arsjo@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
 SUMMARY:Sommar i P1: Ebba Årsjö
@@ -556,11 +556,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-28-sommar-i-p1-andreas-t-olsson@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
 SUMMARY:Sommar i P1: Andreas T Olsson
-DESCRIPTION:Sommar i P1\n\nHost: Andreas T Olsson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815531
+DESCRIPTION:Sommar i P1\n\nHost: Andreas T Olsson\n\nSkådespelaren och dramatikern om att födas för tidigt\, för sent och mitt i sommaren.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815531
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -570,11 +570,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-29-sommar-i-p1-martin-peterson@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:Sommar i P1: Martin Peterson
-DESCRIPTION:Sommar i P1\n\nHost: Martin Peterson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815532
+DESCRIPTION:Sommar i P1\n\nHost: Martin Peterson\n\nFilosofiprofessorn om att censureras när han undervisar i dagens USA.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815532
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -584,7 +584,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-30-sommar-i-p1-alexandra-polivanova@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 SUMMARY:Sommar i P1: Alexandra Polivanova
@@ -598,7 +598,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-07-31-sommar-i-p1-elin-rombo@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Sommar i P1: Elin Rombo
@@ -612,7 +612,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-01-sommar-i-p1-kristoffer-leandoer@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Sommar i P1: Kristoffer Leandoer
@@ -626,7 +626,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-02-sommar-i-p1-ebba-witt-brattstrom@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Sommar i P1: Ebba Witt-Brattström
@@ -640,7 +640,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-03-sommar-i-p1-david-wiberg@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Sommar i P1: David Wiberg
@@ -654,7 +654,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-04-sommar-i-p1-elham-rostami@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
 SUMMARY:Sommar i P1: Elham Rostami
@@ -668,11 +668,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-05-sommar-i-p1-pelle-larsson@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Sommar i P1: Pelle Larsson
-DESCRIPTION:Sommar i P1\n\nHost: Pelle Larsson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815541
+DESCRIPTION:Sommar i P1\n\nHost: Pelle Larsson\n\nOm livet som basketproffs med diviga stjärnor\, matförgiftning och svåra beslut.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815541
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -682,11 +682,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-06-sommar-i-p1-eva-von-bahr-och-love-larsson@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:Sommar i P1: Eva von Bahr och Love Larsson
-DESCRIPTION:Sommar i P1\n\nHost: Eva von Bahr och Love Larsson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815542
+DESCRIPTION:Sommar i P1\n\nHost: Eva von Bahr och Love Larsson\n\nMaskörerna om att göra masker i världsklass och hyllas på Oscarsgalan.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815542
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -696,11 +696,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-07-sommar-i-p1-alexander-ekman@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Sommar i P1: Alexander Ekman
-DESCRIPTION:Sommar i P1\n\nHost: Alexander Ekman\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815543
+DESCRIPTION:Sommar i P1\n\nHost: Alexander Ekman\n\nKoreografen och konstnären om människans märkliga behov av bekräftelse.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815543
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -710,11 +710,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-08-sommar-i-p1-linda-lampenius@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Sommar i P1: Linda Lampenius
-DESCRIPTION:Sommar i P1\n\nHost: Linda Lampenius\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815544
+DESCRIPTION:Sommar i P1\n\nHost: Linda Lampenius\n\nViolinisten om sitt märkliga\, roliga\, ibland mörka men alltid spännande liv.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815544
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -724,11 +724,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-09-sommar-i-p1-asne-seierstad@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260809
 DTEND;VALUE=DATE:20260810
 SUMMARY:Sommar i P1: Åsne Seierstad
-DESCRIPTION:Sommar i P1\n\nHost: Åsne Seierstad\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815545
+DESCRIPTION:Sommar i P1\n\nHost: Åsne Seierstad\n\nJournalisten och författaren om tiden mellan Sovjetunionens fall och dagens Ryssland.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815545
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -738,11 +738,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-10-sommar-i-p1-manne-af-klintberg@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:Sommar i P1: Manne af Klintberg
-DESCRIPTION:Sommar i P1\n\nHost: Manne af Klintberg\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815546
+DESCRIPTION:Sommar i P1\n\nHost: Manne af Klintberg\n\nClownen Manne om att ge barnen lek\, mer lek och ännu mera lek.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815546
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -752,11 +752,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-11-sommar-i-p1-ewa-froling@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:Sommar i P1: Ewa Fröling
-DESCRIPTION:Sommar i P1\n\nHost: Ewa Fröling\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815547
+DESCRIPTION:Sommar i P1\n\nHost: Ewa Fröling\n\nSkådespelaren om hur det tagit ett helt liv att bli till.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815547
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -766,7 +766,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-12-sommar-i-p1-vanessa-kamga@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
 SUMMARY:Sommar i P1: Vanessa Kamga
@@ -780,11 +780,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-13-sommar-i-p1-mohammad-fazlhashemi@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 SUMMARY:Sommar i P1: Mohammad Fazlhashemi
-DESCRIPTION:Sommar i P1\n\nHost: Mohammad Fazlhashemi\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815549
+DESCRIPTION:Sommar i P1\n\nHost: Mohammad Fazlhashemi\n\nProfessorn i islamisk teologi och filosofi om situationen i Iran och resan in i den svenska gemenskapen.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815549
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -794,7 +794,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-14-sommar-i-p1-sofia-dalen@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Sommar i P1: Sofia Dalén
@@ -808,11 +808,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-15-sommar-i-p1-felicia-eriksson@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Sommar i P1: Felicia Eriksson
-DESCRIPTION:Sommar i P1\n\nHost: Felicia Eriksson\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815550
+DESCRIPTION:Sommar i P1\n\nHost: Felicia Eriksson\n\nArtisten om masken\, den turbulenta tiden som Fröken Snusk och vägen framåt som Felicia.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815550
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -822,11 +822,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-16-sommar-i-p1-niklas-radstrom@sommar-calendar
-DTSTAMP:20260705T154935Z
+DTSTAMP:20260705T160912Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:Sommar i P1: Niklas Rådström
-DESCRIPTION:Sommar i P1\n\nHost: Niklas Rådström\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815552
+DESCRIPTION:Sommar i P1\n\nHost: Niklas Rådström\n\nFörfattaren om nyfikenhet\, åldrande och kärlek.\n\nListen on Sveriges Radio:\nhttps://www.sverigesradio.se/avsnitt/2815552
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY

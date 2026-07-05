@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815520,
+    "title": "Ruth Kvarnström-Jones",
+    "description": "Författaren om ödet som ledde henne från Storbritannien till Sverige.",
+    "text": "Hennes studier lockade henne från Storbritannien till Sverige och sedan 40 år tillbaka bor hon i Stockholm. Ruth Kvarnström-Jones är översättaren som slog igenom som romanförfattare med Halleholm-trilogin och som gjort sig känd för serien Stockholms pärlor, där böckerna om Grand Hôtel och Nordiska Kompaniet ingår. Aktuell med ny bok i höst.\r\nRuth Kvarnström-Jones om sitt Sommarprat\r\n– Det finns ett talesätt som påstår; alla vägar bär till Rom. För mig har alla vägar burit till Sverige. Den resan ska jag dela.\r\nProducent: Håkan Lahger\r\nOm Ruth Kvarnström-Jones\r\nFörfattare, 64 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815520",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1784458800000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1784458800000)/",
+      "endtimeutc": "/Date(1784464200000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 223997
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

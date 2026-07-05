@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815541,
+    "title": "Pelle Larsson",
+    "description": "Om livet som basketproffs med diviga stjärnor, matförgiftning och svåra beslut.",
+    "text": "Han är fjärde svensk någonsin att bli proffs i amerikanska basketligan NBA och har på kort tid blivit en nyckelspelare i Miami Heat. Pelle Larsson inledde karriären i Skuru IK och redan efter första säsongen i svenska basketligan utsågs han till årets spelare. Under EM 2025 blev han en av turneringens bästa poänggörare när Sverige nådde åttondelsfinal.\r\nPelle Larsson om sitt Sommarprat\r\n– Om hur man mörkar en matförgiftning i samband med debuten i NBA, om att våga vänta och tacka nej till lukrativa erbjudanden, om stjärnor som bråkar sig bort från ett lag och om hur man undviker att få sin bil fylld med popcorn.\r\nProducent: Martin Marhlo\r\nOm Pelle Larsson\r\nBasketspelare Miami Heat, NBA, 25 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815541",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785927600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785927600000)/",
+      "endtimeutc": "/Date(1785933000000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1319486
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

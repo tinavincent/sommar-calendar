@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815474,
+    "title": "Carolina Dybeck Happe",
+    "description": "Företagsledaren om att rädda ett miljardbolag och att kapprusta inom AI.",
+    "text": "Hon är en av de mest framträdande svenska cheferna i internationellt näringsliv, idag vice vd och operativ chef på Microsoft med ansvar för företagets AI-omställning. Som tidigare ekonomichef på General Electric drev hon igenom en av de största omstruktureringarna i amerikansk företagshistoria. Carolina Dybeck Happe har även suttit i styrelsen för flera stora företag som Ericsson och E.ON.\r\nProducent: Mattias Österlund\r\nOm Carolina Dybeck Happe\r\nVice vd Microsoft, 53 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815474",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782471600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5305,
+        "publishdateutc": "/Date(1782450000000)/",
+        "id": 10215931,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10215931&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815474)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5305,
+          "publishdateutc": "/Date(1782450000000)/",
+          "id": 10215931,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_carolina_dybeck_happe_med_lang_20260625_1502277243_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815474)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782471600000)/",
+      "endtimeutc": "/Date(1782477000000)/"
+    },
+    "listenpodfile": {
+      "title": "Carolina Dybeck Happe",
+      "description": "",
+      "filesizeinbytes": 61378477,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782450000000)/",
+      "duration": 3835,
+      "publishdateutc": "/Date(1782471600000)/",
+      "id": 10215940,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_carolina_dybec_20260625_1505040761.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815474)]"
+    },
+    "downloadpodfile": {
+      "title": "Carolina Dybeck Happe",
+      "description": "",
+      "filesizeinbytes": 61378477,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782450000000)/",
+      "duration": 3835,
+      "publishdateutc": "/Date(1782471600000)/",
+      "id": 10215940,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_carolina_dybec_20260625_1505040761.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815474)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2397637
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

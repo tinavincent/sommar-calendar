@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815543,
+    "title": "Alexander Ekman",
+    "description": "Koreografen och konstnären om människans märkliga behov av bekräftelse.",
+    "text": "Han är en av Sveriges främsta koreografer och har samarbetat med ett 50-tal danskompanier världen över. Alexander Ekman inledde sin karriär som dansare på Stockholmsoperan, sedan vidare till Cullbergbaletten där han debuterade som koreograf. Han står bakom hyllade föreställningar som ”Midsommarnattsdröm” och ”Svansjön”. Han har tilldelats Ganneviksstipendet, som belönar svenska konstnärer som anses ha gjort ”extraordinära, bestående insatser för kulturlivet”.\r\nAlexander Ekman om sitt Sommarprat\r\n– I det här pratet rör sig tankarna fritt mellan kontrollbehov, risk, kärlek, prestationsångest, kreativitet, åldrande och människans märkliga behov av bekräftelse.\r\nProducent: Mathilda von Essen\r\nOm Alexander Ekman\r\nKoreograf, konstnär, 42 år\r\nTidigare Sommarvärd 2015\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815543",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786100400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786100400000)/",
+      "endtimeutc": "/Date(1786105800000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 586383
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

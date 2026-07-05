@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815511,
+    "title": "Emil Hansius",
+    "description": "Youtubern om något han nästan inte vågar tala om.",
+    "text": "Med sin träffsäkra humor och sitt personliga tilltal har han etablerat sig som en av Sveriges största onlinekreatörer. Han står bakom populära Youtubeformat som ”Hansius flyttar in” och ”Lever en dag som”, samt podden ”Vafalls”. Piteåsonen Emil Hansius har programlett Musikhjälpen och Rockbjörnen och i höst är han en av programledarna i TV4:s ”Valutfrågningen”.\r\nEmil Hansius om sitt Sommarprat\r\n– Många i min närhet har frågat mig ”vad ska du prata om”? Men för mig är det inte frågan om vad jag ska prata om, utan om jag vågar prata om det.\r\nProducent: Li Skarin\r\nOm Emil Hansius\r\nYoutuber, 31 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815511",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783940400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783940400000)/",
+      "endtimeutc": "/Date(1783945800000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1518772
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815509,
+    "title": "Amanda Jansson",
+    "description": "Skådespelaren om varför hon ville sluta, precis när karriären började ta fart.",
+    "text": "Hon fick sitt stora genombrott i polisserien ”Tunna blå linjen” och sedan dess har rollerna avlöst varandra. Amanda Jansson spelade Jana Kippo i SVT:s hyllade dramatisering av Karin Smirnoffs roman ”Jag for ner till bror”. År 2024 spelade hon titelrollen i filmen ”Stormskärs Maja”, en roll som gav henne en Jussistatyett för bästa huvudroll.\r\nAmanda Jansson om sitt Sommarprat\r\n– I mitt Sommar kommer jag prata om att komma från landet, om hur svårt det kan vara att stå för den man är och varför jag ville sluta som skådespelare när karriären just börjat ta fart.\r\nProducent: Louise Jacobson\r\nOm Amanda Jansson\r\nSkådespelare, 36 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815509",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783767600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783767600000)/",
+      "endtimeutc": "/Date(1783773000000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1518793
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

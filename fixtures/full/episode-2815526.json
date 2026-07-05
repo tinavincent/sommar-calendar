@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815526,
+    "title": "Maria Maunsbach",
+    "description": "Författaren om familjebildning bortom det biologiska.",
+    "text": "Debutromanen ”Bara ha roligt” hyllades för sin intensiva och råa skildring av relationer. Sedan dess har hon gett ut en rad uppmärksammade böcker. För den senaste, ”En magisk man”, tilldelades hon Aftonbladets litteraturpris och nominerades till DN:s kulturpris. Maria Maunsbach är verksam som kulturskribent i SvD och gjorde i höstas dramatikerdebut med ”En jättehärlig dag” på Folkteatern i Göteborg.\r\nProducent: Magnus Lindman\r\nOm Maria Maunsbach\r\nFörfattare, 36 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815526",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782990000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5288,
+        "publishdateutc": "/Date(1782968400000)/",
+        "id": 10214478,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10214478&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815526)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5288,
+          "publishdateutc": "/Date(1782968400000)/",
+          "id": 10214478,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_maria_maunsbach_med_lang_musik_20260624_1333415907_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815526)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782990000000)/",
+      "endtimeutc": "/Date(1782995280000)/"
+    },
+    "listenpodfile": {
+      "title": "Maria Maunsbach",
+      "description": "",
+      "filesizeinbytes": 54027162,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782968400000)/",
+      "duration": 3376,
+      "publishdateutc": "/Date(1782990000000)/",
+      "id": 10214481,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_maria_maunsbach_podd_ny_20260624_1329578470.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815526)]"
+    },
+    "downloadpodfile": {
+      "title": "Maria Maunsbach",
+      "description": "",
+      "filesizeinbytes": 54027162,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782968400000)/",
+      "duration": 3376,
+      "publishdateutc": "/Date(1782990000000)/",
+      "id": 10214481,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_maria_maunsbach_podd_ny_20260624_1329578470.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815526)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2180689
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

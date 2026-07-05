@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815471,
+    "title": "Patrik Norqvist",
+    "description": "Rymdfysikern ger svar på frågorna vi grubblat på i åratal.",
+    "text": "Han är universitetslektor i rymdfysik vid Umeå universitet och många känner igen honom från tv där han medverkat i produktioner som ”Fråga Lund”, ”Nyhetsmorgon” och nu senast i ”Förrädarna”. Vid sidan av akademin jobbar Patrik Norqvist med att intressera barn och ungdomar för naturvetenskap genom att hålla engagerande föredrag om fysik på skolor.\r\nProducent: Erica Dahlgren\r\nOm Patrik Norqvist\r\nRymdfysiker, lektor i fysik, 60 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815471",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782730800000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5098,
+        "publishdateutc": "/Date(1782709200000)/",
+        "id": 10212103,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10212103&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815471)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5098,
+          "publishdateutc": "/Date(1782709200000)/",
+          "id": 10212103,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_patrik_norqvist_med_lang_musik_20260622_1155072805_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815471)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782730800000)/",
+      "endtimeutc": "/Date(1782736200000)/"
+    },
+    "listenpodfile": {
+      "title": "Patrik Norqvist",
+      "description": "",
+      "filesizeinbytes": 52224282,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782709200000)/",
+      "duration": 3263,
+      "publishdateutc": "/Date(1782730800000)/",
+      "id": 10214451,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_patrik_norqvist_podd_ny_20260624_1305342545.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815471)]"
+    },
+    "downloadpodfile": {
+      "title": "Patrik Norqvist",
+      "description": "",
+      "filesizeinbytes": 52224282,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782709200000)/",
+      "duration": 3263,
+      "publishdateutc": "/Date(1782730800000)/",
+      "id": 10214451,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_patrik_norqvist_podd_ny_20260624_1305342545.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815471)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2700835
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

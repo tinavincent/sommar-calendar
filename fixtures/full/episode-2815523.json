@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815523,
+    "title": "Maria Sid",
+    "description": "Skådespelaren öppnar dörren till ett pågående experiment – livet.",
+    "text": "Hon har varit skådespelare och regissör i både Finland och Sverige. Många känner igen henne från tv-serien ”Parterapi i Gagnef” och SVT:s julkalender ”Hotellet gyllene knorren”. Nominerades till en Emmy för sin roll i ”Smärtpunkten” och fick tv-priset Kristallen i kategorin bästa kvinnliga skådespelare. Maria Sid är teater- och scenkonstchef på Kulturhuset Stadsteatern och i höst regisserar hon deras uppsättning av ”Jesus Christ Superstar”.\r\nMaria Sid om sitt Sommarprat\r\n– Jag ska öppna dörren till ett pågående experiment – mitt liv. Som den människoforskare jag är vill jag dela med mig av mina tankar kring hur jag navigerat i tiden med den biologiska kod som människor har och alltid har haft.\r\nProducent: Marie Nyreröd\r\nOm Maria Sid\r\nSkådespelare, teaterchef 58 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815523",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1784631600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1784631600000)/",
+      "endtimeutc": "/Date(1784637000000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1319498
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

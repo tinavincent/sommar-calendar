@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815552,
+    "title": "Niklas Rådström",
+    "description": "Författaren om nyfikenhet, åldrande och kärlek.",
+    "text": "Han har skrivit ett 40-tal romaner, essäer, diktsamlingar, dramatik och filmmanus, bland annat Guldbaggebelönade ”Maria Larssons eviga ögonblick”. Niklas Rådström är flerfaldigt prisad för sitt författarskap, bland annat med Augustpriset. Han är professor emeritus i berättande och kreativt skrivande samt ledamot av den litterära akademien Samfundet De Nio. Utkom under våren med den kritikerrosade romanen ”Judas hågkomster”.\r\nNiklas Rådström om sitt Sommarprat\r\n– Mitt Sommarprogram kommer att handla om nyfikenhet, människans mest underskattade egenskap och om förvandling, åldrande och kärlek.\r\nProducent: Cecilia Bodström\r\nOm Niklas Rådström\r\nFörfattare, 73 år\r\nTidigare Sommarvärd 1979, 1982, 1985, 1993, 2010\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815552",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786878000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786878000000)/",
+      "endtimeutc": "/Date(1786883400000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 126295
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

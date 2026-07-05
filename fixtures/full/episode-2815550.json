@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815550,
+    "title": "Felicia Eriksson",
+    "description": "Artisten om masken, den turbulenta tiden som Fröken Snusk och vägen framåt som Felicia.",
+    "text": "Hon har toppat de svenska streaminglistorna och vann 2026 Melodifestivalen med låten ”My system”. Felicia Eriksson slog igenom stort som Fröken Snusk inom epadunk-genren med låten ”Rid mig som en dalahäst” men sjunger numera under eget namn. Med sin unika röst har hon medverkat och tagit hem segern i underhållningsprogrammen ”Masked singer” och ”Spelet”.\r\nFelicia Eriksson om sitt Sommarprat\r\n– Jag har varit med om väldigt mycket på kort tid och det kommer jag prata om. Jag kommer att fokusera framåt, för jag vill inte fastna i det negativa, även om jag måste prata om det också. Och så ska det handla om masken förstås.\r\nProducent: Lova Nyqvist Sköld\r\nOm Felicia Eriksson\r\nArtist, 24 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815550",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786791600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786791600000)/",
+      "endtimeutc": "/Date(1786797000000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1740734
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

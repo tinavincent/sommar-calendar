@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815516,
+    "title": "Bettan Byvald",
+    "description": "Socialarbetaren om 40 år i yrket och händelser som påverkat henne.",
+    "text": "Hon har beskrivits som ”en passionerad enmansstyrka mot extremism”. Bettan Byvald har arbetat som socialarbetare i Angered i nästan 40 år, bland annat med kriminella avhoppare och som initiativtagare till Familjeakademin där samverkan med barn och föräldrar står i fokus. Hon är utnämnd till riddare av första klassen av Vasaorden för ”mångårigt betydande socialt arbete”.\r\nBettan Byvald om sitt Sommarprat\r\n– Jag skall prata om händelser som påverkat mig till att bli den socialarbetare jag blev och som lett till att Sveriges Konung belönade mig med Vasaorden Riddare av första klassen.\r\nProducent: Sanna Klinghoffer\r\nOm Bettan Byvald\r\nSocialarbetare, 71 år \r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815516",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1784113200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1784113200000)/",
+      "endtimeutc": "/Date(1784118600000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1733201
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

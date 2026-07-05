@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815488,
+    "title": "Carl Skau",
+    "description": "Tf chefen för FN:s livsmedelsprogram om att bekämpa hunger på världens farligaste platser.",
+    "text": "Han har över 20 års erfarenhet av diplomati och har arbetat med fredsbyggande projekt i bland annat FN:s säkerhetsråd, UD och EU. Idag är Carl Skau tillförordnad chef för FN:s livsmedelsprogram, som ger livräddande stöd i kriser och använder matbistånd för att främja fred, stabilitet och bättre livsvillkor för människor.\r\nCarl Skau om sitt Sommarprat\r\n– Mitt program handlar om att tvingas ta från de hungrande för att ge till de svältande. Och andra omöjliga val jag ställts inför i arbetet med att bekämpa hunger på världens farligaste och mest bortglömda platser.\r\nProducent: Johar Bendjelloul\r\nOm Carl Skau\r\nTf chef FN:s livsmedelsprogram, 48 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815488",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783681200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783681200000)/",
+      "endtimeutc": "/Date(1783686600000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2578966
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

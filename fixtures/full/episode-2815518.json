@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815518,
+    "title": "Anders Rosengren",
+    "description": "Läkaren om varför vi lever längre men känner oss mindre levande – och hur vi når existentiell hälsa.",
+    "text": "Han har utvecklat ”Livsstilsverktyget” som används av hundratusentals människor för att må bättre och förebygga livsstilssjukdomar. Anders Rosengren är läkare och professor i molekylär medicin vid Göteborgs Universitet och arbetar med att utmana vår syn på vad det innebär att vara människa. Han har skrivit böckerna ”Hela livet” med konkreta råd om stress, motion och matvanor och ”En oväntad glänta: tankar om hälsa och existens”.\r\nAnders Rosengren om sitt Sommarprat\r\n– Mitt Sommar kommer att handla om existentiell hälsa i en splittrad tid. Om vår blick på världen, andra och oss själva. Och vad det innebär att vara människa: att aldrig bli färdig.\r\nProducent: Lina Linderoth Asp\r\nOm Anders Rosengren\r\nLäkare, professor i molekylär medicin, 48 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815518",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1784286000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/aedd2617-803b-4810-a408-11592a824c6e.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/aedd2617-803b-4810-a408-11592a824c6e.jpg",
+    "photographer": "Lina Arvidsson",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1784286000000)/",
+      "endtimeutc": "/Date(1784291400000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2181122
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

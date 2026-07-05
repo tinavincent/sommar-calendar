@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815531,
+    "title": "Andreas T Olsson",
+    "description": "Skådespelaren och dramatikern om att födas för tidigt, för sent och mitt i sommaren.",
+    "text": "Etablerad som en monologernas mästare med föreställningar som ”Sufflören” på Dramaten och ”Kulturbärarna” på Oscarsteatern i Stockholm – pjäser som han skrivit och framfört själv i ”melankomisk” stil. Tillhör Dramatens fasta ensemble och är konstnärlig ledare för Soppteatern. Sitter vid tallrik 13 i Gastronomiska Akademien och har mottagit kungliga medaljen Litteris et Artibus för framstående konstnärliga insatser.\r\nAndreas T Olsson om sitt Sommarprat\r\n– I mitt Sommar kommer jag att berätta om hur det är att födas för tidigt, men också för sent och dessutom mitt i sommaren. Och hur man ska överleva den trojanska hösten.\r\nOm Andreas T Olsson\r\nSkådespelare, dramatiker, 46 år\r\nDebuterar som Sommarvärd\r\nProducent: Ellen Kittel\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815531",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785236400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785236400000)/",
+      "endtimeutc": "/Date(1785241800000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 768788
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815476,
+    "title": "Olof Wretling",
+    "description": "Komikern om sitt dåliga omdöme och att räkna ned dagarna i sitt liv.",
+    "text": "Han ingår i humorgruppen Klungan och firade nyligen 20 år med radioprogrammet ”Mammas nya kille”. Olof Wretling har synts i tv-program som ”Tusen år till julafton”, ”Pappas pengar” och ”Bäst i test”. Hans populära Vinterprat ”Diagnoserna i mitt liv” ledde till att han utsågs till hedersdoktor vid Umeå universitet och Vinterpratet ”Kaffet” blev en teaterföreställning som också filmades för SVT.\r\nProducent: Erika Strand-Berglund\r\nOm Olof Wretling\r\nKomiker, 51 år\r\nTidigare Sommarvärd 2011, tidigare Vintervärd 2011, 2012, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022, 2023\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815476",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783162800000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5323,
+        "publishdateutc": "/Date(1783141200000)/",
+        "id": 10220200,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10220200&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815476)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5323,
+          "publishdateutc": "/Date(1783141200000)/",
+          "id": 10220200,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_olof_wretling_med_lang_musik_20260630_1346272284_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815476)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783162800000)/",
+      "endtimeutc": "/Date(1783168200000)/"
+    },
+    "listenpodfile": {
+      "title": "Olof Wretling",
+      "description": "",
+      "filesizeinbytes": 61439128,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1783141200000)/",
+      "duration": 3839,
+      "publishdateutc": "/Date(1783162800000)/",
+      "id": 10220203,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_olof_wretling_podd_ny_20260630_1343155278.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815476)]"
+    },
+    "downloadpodfile": {
+      "title": "Olof Wretling",
+      "description": "",
+      "filesizeinbytes": 61439128,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1783141200000)/",
+      "duration": 3839,
+      "publishdateutc": "/Date(1783162800000)/",
+      "id": 10220203,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_olof_wretling_podd_ny_20260630_1343155278.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815476)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1416626
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

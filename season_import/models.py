@@ -12,10 +12,14 @@ def empty_season_episode(name: str, date: str, episode_url: str, presentation_ur
         "name": name,
         "date": date,
         "episodeUrl": episode_url,
-        "imageUrl": "",
-        "shortDescription": "",
-        "longDescription": "",
-        "aboutHost": "",
+        "imageUrl": None,
+        "shortDescription": None,
+        "longDescription": None,
+        "aboutHost": None,
+        "duration": None,
+        "broadcastDate": None,
+        "programTitle": None,
+        "enrichStatus": None,
         "source": {
             "presentationPage": presentation_url,
             "episodePage": episode_url,
@@ -37,10 +41,18 @@ def discover_entry_to_episode(entry: dict, presentation_url: str) -> dict:
 
 def apply_enrichment(episode: dict, enriched: dict) -> dict:
     merged = episode.copy()
-    merged["imageUrl"] = enriched.get("imageUrl", "")
-    merged["shortDescription"] = enriched.get("shortDescription", "")
-    merged["longDescription"] = enriched.get("longDescription", "")
-    merged["aboutHost"] = enriched.get("aboutHost", "")
+    for field in (
+        "imageUrl",
+        "shortDescription",
+        "longDescription",
+        "aboutHost",
+        "duration",
+        "broadcastDate",
+        "programTitle",
+        "enrichStatus",
+    ):
+        if field in enriched:
+            merged[field] = enriched[field]
     if enriched.get("previousSommarYears"):
         merged["previousSommarYears"] = enriched["previousSommarYears"]
     return merged
@@ -56,6 +68,10 @@ def build_season_file(year: int, source_url: str, episodes: list[dict]) -> dict:
     }
 
 
+def _legacy_value(value) -> str:
+    return value if value is not None else ""
+
+
 def season_episode_to_legacy(episode: dict, year: int) -> dict:
     name = episode["name"]
     date = episode["date"]
@@ -68,11 +84,11 @@ def season_episode_to_legacy(episode: dict, year: int) -> dict:
         "host": name,
         "hostEpithet": episode.get("hostEpithet", ""),
         "srUrl": normalize_sr_url(episode_url) if episode_url else "",
-        "episodeTeaser": episode.get("shortDescription", ""),
-        "episodeDescription": episode.get("longDescription", ""),
-        "hostBio": episode.get("aboutHost", ""),
-        "previousSommarYears": episode.get("previousSommarYears", []),
-        "imageUrl": episode.get("imageUrl", ""),
+        "episodeTeaser": _legacy_value(episode.get("shortDescription")),
+        "episodeDescription": _legacy_value(episode.get("longDescription")),
+        "hostBio": _legacy_value(episode.get("aboutHost")),
+        "previousSommarYears": episode.get("previousSommarYears") or [],
+        "imageUrl": _legacy_value(episode.get("imageUrl")),
     }
 
 

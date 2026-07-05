@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815530,
+    "title": "Ebba Årsjö",
+    "description": "Alpina skidåkaren om att ta det värsta i sitt liv och göra det till det bästa.",
+    "text": "Hon tog guld i störtlopp, storslalom, superkombination och brons i super-G vid paralympiska vinterspelen 2026. Genombrottet kom fyra år tidigare i Peking med dubbla guld och ett brons. Ebba Årsjö föddes med Klippel-Trénaunays syndrom, vilket gör att hennes högerben inte kan utveckla muskler i samma utsträckning som det friska vänsterbenet.\r\nEbba Årsjö om sitt Sommarprat\r\n– Jag tog det värsta i mitt liv och vände det till mitt bästa. Jag kan inte träna, tävla och välja som många andra idrottare. Men jag har bestämt mig för att leva.\r\nProducent: Erica Dahlgren\r\nOm Ebba Årsjö\r\nParaidrottare, alpin skidåkare, 25 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815530",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785150000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/356f34c6-cd42-4855-a6c8-396a64310b91.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/356f34c6-cd42-4855-a6c8-396a64310b91.jpg",
+    "photographer": "Mattias Ahlm/Sveriges Radio",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785150000000)/",
+      "endtimeutc": "/Date(1785155400000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1952967
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

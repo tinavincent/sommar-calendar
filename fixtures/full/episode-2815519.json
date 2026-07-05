@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815519,
+    "title": "Alexander Karim",
+    "description": "Skådespelaren om roller han axlat och vem han ska bli i framtiden.",
+    "text": "Hans roller spänner mellan advokat Frank Nordling i ”Advokaten”, Vanheden i ”Jönssonligan” och läkaren Ravi i ”Gladiator 2”. Efter 25 år av dramatik i strålkastarljuset och bakom kulisserna, kom skådespelaren Alexander Karim förra året ut med romanen ”Rampljus”, en bok om maktspel.\r\nProducent: Marie Nyreröd\r\nOm Alexander Karim\r\nSkådespelare, 50 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815519",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782558000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5283,
+        "publishdateutc": "/Date(1782536400000)/",
+        "id": 10212101,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10212101&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815519)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5283,
+          "publishdateutc": "/Date(1782536400000)/",
+          "id": 10212101,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_alexander_karim_med_lang_musik_20260622_1155264079_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815519)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782558000000)/",
+      "endtimeutc": "/Date(1782563400000)/"
+    },
+    "listenpodfile": {
+      "title": "Alexander Karim",
+      "description": "",
+      "filesizeinbytes": 63962775,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782536400000)/",
+      "duration": 3997,
+      "publishdateutc": "/Date(1782558000000)/",
+      "id": 10212038,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_alexander_karim_podd_20260622_1129336694.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815519)]"
+    },
+    "downloadpodfile": {
+      "title": "Alexander Karim",
+      "description": "",
+      "filesizeinbytes": 63962775,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782536400000)/",
+      "duration": 3997,
+      "publishdateutc": "/Date(1782558000000)/",
+      "id": 10212038,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_alexander_karim_podd_20260622_1129336694.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815519)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 404043
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

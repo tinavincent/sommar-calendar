@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815462,
+    "title": "Helena Bergström",
+    "description": "Skådespelaren om när livet stannade upp och allt blev på djupaste allvar.",
+    "text": "Hon är en av Sveriges mest folkkära skådespelare med över 40 år i branschen, både framför och bakom kameran. Helena Bergström har haft huvudrollen i filmer som ”Änglagård” och ”Sprängaren” och hon har spelat Hamlet, Nora och Medea på våra största teaterscener. Aktuell i den utsålda publiksuccén ”Mors dag” på Dramaten och ses i höst på bioduken i ”Resan till Piemonte”.\r\nProducent: Lisa Bergström\r\nOm Helena Bergström\r\nSkådespelare, 62 år\r\nTidigare Sommarvärd 1992, 2011\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815462",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1781953200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5286,
+        "publishdateutc": "/Date(1781931600000)/",
+        "id": 10207197,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10207197&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815462)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5286,
+          "publishdateutc": "/Date(1781931600000)/",
+          "id": 10207197,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_helena_bergstrom_med_lang_musi_20260616_1533049328_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815462)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1781953200000)/",
+      "endtimeutc": "/Date(1781958600000)/"
+    },
+    "listenpodfile": {
+      "title": "Helena Bergström",
+      "description": "",
+      "filesizeinbytes": 63161753,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1781931600000)/",
+      "duration": 3947,
+      "publishdateutc": "/Date(1781953200000)/",
+      "id": 10207184,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_helena_bergstrom_podd_20260616_1515388871.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815462)]"
+    },
+    "downloadpodfile": {
+      "title": "Helena Bergström",
+      "description": "",
+      "filesizeinbytes": 63161753,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1781931600000)/",
+      "duration": 3947,
+      "publishdateutc": "/Date(1781953200000)/",
+      "id": 10207184,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_helena_bergstrom_podd_20260616_1515388871.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815462)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 126279
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

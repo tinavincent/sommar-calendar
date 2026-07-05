@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815463,
+    "title": "Sebastian Ingrosso",
+    "description": "Dj:n om att fylla hålet inombords när musiken tystnar.",
+    "text": "Som del av dj-kollektivet Swedish House Mafia har Sebastian Ingrosso tillsammans med Steve Angello och Axwell producerat hitlåtar som ”Don’t you worry child”, ”Save the world” och ”Moth to a Flame” med The Weeknd. Gruppen har sammanlagt över 6,2 miljarder streams och i sommar gör de sin största spelning någonsin på Ullevi i Göteborg.\r\nProducent: Mattias Österlund\r\nOm Sebastian Ingrosso\r\nDj, artist, 43 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\nI sitt Sommarprogram berättar Sebastian Ingrosso om alkoholberoende. Om du själv behöver hjälp eller råd kan du vända dig hit:\r\nAlkoholhjälpen: Ger kostnadsfri och anonym rådgivning för den som har frågor om sina egna eller någon annans alkoholvanor. Du når dem via telefon 020-84 44 48 eller via chatt på alkohollinjen.se.\r\nVid akuta situationer eller om någon är i fara, ring alltid 112.\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815463",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782039600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5305,
+        "publishdateutc": "/Date(1782018000000)/",
+        "id": 10208156,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10208156&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815463)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5305,
+          "publishdateutc": "/Date(1782018000000)/",
+          "id": 10208156,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_sebastian_ingrosso_med_lang_mu_20260617_1151567347_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815463)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782039600000)/",
+      "endtimeutc": "/Date(1782045000000)/"
+    },
+    "listenpodfile": {
+      "title": "Sebastian Ingrosso",
+      "description": "",
+      "filesizeinbytes": 50952858,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782018000000)/",
+      "duration": 3184,
+      "publishdateutc": "/Date(1782039600000)/",
+      "id": 10207247,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sebastian_ingrosso_podd_20260616_1539063279.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815463)]"
+    },
+    "downloadpodfile": {
+      "title": "Sebastian Ingrosso",
+      "description": "",
+      "filesizeinbytes": 50952858,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782018000000)/",
+      "duration": 3184,
+      "publishdateutc": "/Date(1782039600000)/",
+      "id": 10207247,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sebastian_ingrosso_podd_20260616_1539063279.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815463)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 407820
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

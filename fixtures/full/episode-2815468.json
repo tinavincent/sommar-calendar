@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815468,
+    "title": "Vanessa Kamga",
+    "description": "Friidrottaren om att inspirera andra – och spränga sina egna gränser.",
+    "text": "Hon är Sveriges främsta kvinnliga diskuskastare genom tiderna med svenskt rekord, sex SM-guld och en fjärdeplats i VM 2025. Dessutom slog hon svenskt rekord i ”fel” sport – tyngdlyftning 2026. Vid sidan om idrotten driver hon det sociala inkluderingsprojektet Kamgapower som handlar om att stärka unga tjejers styrka och självkänsla.\r\nVanessa Kamga om sitt Sommarprat\r\n– Jag vill inspirera andra att lyfta och spränga sina egna barriärer och dela med mig av verktyg och händelser som har fått mig att tro på mig själv.\r\nProducent: Lova Nyqvist Sköld\r\nOm Vanessa Kamga\r\nFriidrottare, 27 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815468",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786532400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786532400000)/",
+      "endtimeutc": "/Date(1786537800000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2397954
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815527,
+    "title": "Joel Kinnaman",
+    "description": "Skådespelaren om livet i Hollywood.",
+    "text": "Han slog igenom som Frank Wagner i Johan Falk-filmerna och fick en Guldbagge för rollen som JW i filmen ”Snabba Cash”. Efter det internationella genombrottet i filmen ”The Girl with the Dragon Tattoo” etablerade han sig i Hollywood där han spelat i storproduktioner som ”RoboCop”, ”House of Cards” och ”The Killing”. I år är han aktuell med nordic noir-serien ”Harry Hole”.\r\nJoel Kinnaman om sitt Sommarprat\r\n– Jag är i Montreal och har satt igång med inspelningarna av min nya serie ”Bishop”. Jag kommer också passa på att skriva manus till mitt första Sommarprat. Jag ser verkligen fram emot att äntligen vara en av årets Sommarvärdar!\r\nProducent: Samuel Sjöblom\r\nOm Joel Kinnaman\r\nSkådespelare, 46 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815527",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1784977200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1784977200000)/",
+      "endtimeutc": "/Date(1784982600000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 363646
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

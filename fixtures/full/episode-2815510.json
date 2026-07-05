@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815510,
+    "title": "Martin Modéus",
+    "description": "Ärkebiskopen om avgörande ögonblick och kyrkans roll i en utmanande tid.",
+    "text": "Han är sedan december 2022 ärkebiskop i Svenska kyrkan, den 71:a i ordningen. Martin Modéus växte upp i Jönköping och anade redan som 17-åring att han ville bli präst. Han prästvigdes 1986 i Växjö stift och har varit biskop i Linköpings stift. Martin Modéus har en doktorsexamen i teologi från Lunds universitet och har skrivit flera böcker om kyrkans riter och traditioner.\r\nMartin Modéus om sitt Sommarprat\r\n– I mitt Sommarprat delar jag med mig av de ögonblick som påverkat mig – från en liten nyckels oväntade kraft till personliga möten genom livet. Jag öppnar dörren till min vardag som ärkebiskop och reflekterar över vad det innebär att vara kyrka i en tid fylld av motsägelser och utmaningar. Det handlar om Gud, om bön, om livet – och om allt det där som ryms däremellan.\r\nProducent: Marie Nyreröd\r\nOm Martin Modéus\r\nÄrkebiskop, 64 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815510",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783854000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783854000000)/",
+      "endtimeutc": "/Date(1783859400000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2700899
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

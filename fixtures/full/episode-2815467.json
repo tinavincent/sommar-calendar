@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815467,
+    "title": "Jonas Gren",
+    "description": "Författaren om de uppkopplade apparaternas makt över våra liv och beslutet att koppla ner.",
+    "text": "Hans mest omtalade bok, ”Ingen surf: Handbok i nedkoppling”, har beskrivits som ”ett porträtt av samtiden och vårt obehag i det digitala”. I den utforskar han hur vi kan frigöra oss från skärmar och ta steg från en tillvaro av ständig uppkoppling. Jonas Gren debuterade med diktsamlingen ”Lantmäteriet” och har sedan dess utgivit en rad verk. Han räknas som en av de främsta förnyarna inom den svenska naturlyriken.\r\nProducent: Erika Strand-Berglund\r\nOm Jonas Gren\r\nFörfattare, 44 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815467",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782385200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5277,
+        "publishdateutc": "/Date(1782363600000)/",
+        "id": 10208403,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10208403&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815467)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5277,
+          "publishdateutc": "/Date(1782363600000)/",
+          "id": 10208403,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_jonas_gren_med_lang_musik_20260617_1435034347_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815467)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782385200000)/",
+      "endtimeutc": "/Date(1782390480000)/"
+    },
+    "listenpodfile": {
+      "title": "Jonas Gren",
+      "description": "",
+      "filesizeinbytes": 60261394,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782363600000)/",
+      "duration": 3765,
+      "publishdateutc": "/Date(1782385200000)/",
+      "id": 10208451,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_jonas_gren_podd_20260617_1454295026.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815467)]"
+    },
+    "downloadpodfile": {
+      "title": "Jonas Gren",
+      "description": "",
+      "filesizeinbytes": 60261394,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782363600000)/",
+      "duration": 3765,
+      "publishdateutc": "/Date(1782385200000)/",
+      "id": 10208451,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_jonas_gren_podd_20260617_1454295026.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815467)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1319465
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

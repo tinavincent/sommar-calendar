@@ -1,10 +1,12 @@
-"""Step 2: Enrich episodes from individual episode pages."""
+"""Step 2: Enrich episodes from Sveriges Radio API (cached HTML fallback only)."""
 
+import json
 import random
 import sys
 import time
 import urllib.error
 import urllib.request
+from typing import Optional
 
 from season_import.paths import (
     EPISODE_TIMEOUT,
@@ -13,16 +15,25 @@ from season_import.paths import (
     MIN_FETCH_DELAY,
     discover_cache,
     fixtures_dir,
+    list_fixture,
+)
+from sr_api import (
+    IMPORTANT_ENRICH_FIELDS,
+    SR_API_EPISODE_URL,
+    api_fixture_path,
+    audit_api_fixtures,
+    compute_enrich_status,
+    empty_enrichment,
+    extract_episode_id,
+    is_valid_api_fixture,
+    parse_api_fixture,
 )
 from sr_parser import (
-    audit_fixtures,
-    classify_fixture,
     fixture_path_for,
     is_valid_fixture,
     parse_enriched_episode,
     parse_list_page,
 )
-from season_import.paths import list_fixture
 
 
 def fetch_url(url: str, timeout: int = EPISODE_TIMEOUT) -> str:
@@ -30,7 +41,7 @@ def fetch_url(url: str, timeout: int = EPISODE_TIMEOUT) -> str:
         url,
         headers={
             "User-Agent": "Mozilla/5.0",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept": "application/json",
         },
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
@@ -40,54 +51,110 @@ def fetch_url(url: str, timeout: int = EPISODE_TIMEOUT) -> str:
 def load_discovered_entries(year: int) -> list[dict]:
     cache = discover_cache(year)
     if cache.exists():
-        import json
-
         return json.loads(cache.read_text(encoding="utf-8"))
     return parse_list_page(list_fixture(year).read_text(encoding="utf-8"), year=year)
 
 
-def fetch_episode(entry: dict, fixture_dir) -> str:
-    """Return 'skipped', 'fetched', or 'failed'."""
-    host = entry["host"]
-    sr_url = entry["srUrl"]
-    path = fixture_path_for(fixture_dir, sr_url)
+def fetch_api_episode(episode_id: str) -> tuple[Optional[dict], Optional[str]]:
+    url = SR_API_EPISODE_URL.format(episode_id=episode_id)
+    try:
+        raw = fetch_url(url)
+    except urllib.error.HTTPError as exc:
+        return None, f"HTTP {exc.code}"
+    except (urllib.error.URLError, TimeoutError, OSError) as exc:
+        return None, repr(exc)
 
+    try:
+        payload = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        return None, f"invalid JSON: {exc}"
+
+    episode = payload.get("episode")
+    if not isinstance(episode, dict):
+        return None, "missing episode object"
+
+    return payload, None
+
+
+def fill_missing_from_html_fixture(enriched: dict, entry: dict, fixture_dir) -> dict:
+    if enriched.get("enrichStatus") == "api_failed":
+        return enriched
+    if all(enriched.get(field) for field in IMPORTANT_ENRICH_FIELDS):
+        return enriched
+
+    html_path = fixture_path_for(fixture_dir, entry["srUrl"])
+    if not html_path.exists():
+        return enriched
+
+    content = html_path.read_text(encoding="utf-8", errors="ignore")
+    if not is_valid_fixture(content, entry["host"]):
+        return enriched
+
+    parsed = parse_enriched_episode(content, entry["host"])
+    for field in IMPORTANT_ENRICH_FIELDS:
+        if enriched.get(field) is None and parsed.get(field):
+            enriched[field] = parsed[field]
+
+    if enriched.get("previousSommarYears") is None and parsed.get("previousSommarYears"):
+        enriched["previousSommarYears"] = parsed["previousSommarYears"]
+
+    enriched["enrichStatus"] = compute_enrich_status(enriched)
+    return enriched
+
+
+def fetch_episode_api(entry: dict, fixture_dir) -> str:
+    """Return 'skipped', 'fetched', or 'failed'."""
+    episode_id = extract_episode_id(entry["srUrl"])
+    if not episode_id:
+        print(f"Skipping {entry['host']} — no episode id in URL.", file=sys.stderr)
+        return "failed"
+
+    path = api_fixture_path(fixture_dir, episode_id)
     if path.exists():
         existing = path.read_text(encoding="utf-8", errors="ignore")
-        if is_valid_fixture(existing, host):
-            print(f"Skipping {host} — valid fixture already exists.")
+        if is_valid_api_fixture(existing, episode_id):
+            print(f"Skipping {entry['host']} — valid API fixture already exists.")
             return "skipped"
 
-    print(f"Fetching {host} ({sr_url})...")
-    try:
-        content = fetch_url(sr_url)
-    except urllib.error.HTTPError as exc:
-        print(f"  Failed: HTTP {exc.code}", file=sys.stderr)
-        return "failed"
-    except (urllib.error.URLError, TimeoutError, OSError) as exc:
-        print(f"  Failed: {exc!r}", file=sys.stderr)
+    print(f"Fetching API metadata for {entry['host']} ({episode_id})...")
+    payload, error = fetch_api_episode(episode_id)
+    if error:
+        print(f"  Failed: {error}", file=sys.stderr)
         return "failed"
 
-    if not is_valid_fixture(content, host):
-        if path.exists():
-            path.unlink()
-        print("  Failed: rate-limited or invalid response", file=sys.stderr)
-        return "failed"
-
-    path.write_text(content, encoding="utf-8")
-    print(f"  Saved valid fixture: {path.name}")
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"  Saved API fixture: {path.name}")
     return "fetched"
+
+
+def enrich_episode_from_fixture(entry: dict, fixture_dir) -> dict:
+    episode_id = extract_episode_id(entry["srUrl"])
+    if not episode_id:
+        return empty_enrichment("api_failed")
+
+    path = api_fixture_path(fixture_dir, episode_id)
+    if not path.exists():
+        return empty_enrichment("api_failed")
+
+    raw = path.read_text(encoding="utf-8", errors="ignore")
+    if not is_valid_api_fixture(raw, episode_id):
+        return empty_enrichment("api_failed")
+
+    enriched = parse_api_fixture(raw, entry["host"])
+    enriched = fill_missing_from_html_fixture(enriched, entry, fixture_dir)
+    enriched["enrichStatus"] = compute_enrich_status(enriched)
+    return enriched
 
 
 def run_enrich(year: int, limit: int = MAX_ENRICH_PER_RUN) -> dict:
     fixture_dir = fixtures_dir(year)
     fixture_dir.mkdir(parents=True, exist_ok=True)
     entries = load_discovered_entries(year)
-    audit = audit_fixtures(entries, fixture_dir)
+    audit = audit_api_fixtures(entries, fixture_dir)
 
-    print(f"\nValid fixtures: {len(audit['valid'])}")
-    print(f"Missing fixtures: {len(audit['missing'])}")
-    print(f"Failed fixtures: {len(audit['failed'])}")
+    print(f"\nValid API fixtures: {len(audit['valid'])}")
+    print(f"Missing API fixtures: {len(audit['missing'])}")
+    print(f"Failed API fixtures: {len(audit['failed'])}")
 
     pending = audit["missing"] + audit["failed"]
     if not pending:
@@ -95,7 +162,7 @@ def run_enrich(year: int, limit: int = MAX_ENRICH_PER_RUN) -> dict:
         return {"fetched": 0, "skipped": 0, "failed": [], "audit": audit}
 
     batch = pending[:limit]
-    print(f"\nEnriching up to {len(batch)} episode page(s) this run...")
+    print(f"\nEnriching up to {len(batch)} episode(s) via API this run...")
 
     fetched = 0
     skipped = 0
@@ -107,8 +174,8 @@ def run_enrich(year: int, limit: int = MAX_ENRICH_PER_RUN) -> dict:
             print(f"Waiting {delay:.1f}s...")
             time.sleep(delay)
 
-        entry = next(item for item in entries if item["srUrl"] == record["srUrl"])
-        result = fetch_episode(entry, fixture_dir)
+        entry = next(item for item in entries if item["srUrl"] == record["episodeUrl"])
+        result = fetch_episode_api(entry, fixture_dir)
         if result == "fetched":
             fetched += 1
         elif result == "skipped":
@@ -116,12 +183,5 @@ def run_enrich(year: int, limit: int = MAX_ENRICH_PER_RUN) -> dict:
         else:
             failed.append({"host": entry["host"], "episodeUrl": entry["srUrl"]})
 
-    audit = audit_fixtures(entries, fixture_dir)
+    audit = audit_api_fixtures(entries, fixture_dir)
     return {"fetched": fetched, "skipped": skipped, "failed": failed, "audit": audit}
-
-
-def enrich_episode_from_fixture(entry: dict, fixture_dir) -> dict:
-    path = fixture_path_for(fixture_dir, entry["srUrl"])
-    if classify_fixture(path, entry["host"]) != "valid":
-        return parse_enriched_episode("", entry["host"])
-    return parse_enriched_episode(path.read_text(encoding="utf-8"), entry["host"])

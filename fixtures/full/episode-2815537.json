@@ -1,0 +1,46 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815537,
+    "title": "Ebba Witt-Brattström",
+    "description": "Författaren om att som barn erövra det nya landet Sverige och sudda ut krigens spår.",
+    "text": "Litteraturprofessorn och författaren som lyft fram kvinnliga författares betydelse i litteraturhistorien, däribland Moa Martinson och Edith Södergran, och som även skrivit om litterära par. Som feminist aktiv i 70-talets Grupp 8, 90-talets Stödstrumporna och medgrundare av partiet Feministiskt Initiativ 2015, som hon lämnade samma år. Hennes uppväxt präglades av att föräldrarna var krigsflyktingar från Estland och Tyskland.\r\nEbba Witt-Brattström om sitt Sommarprat\r\n– Jag var det svenska barnet, medlet och målet. Flickan som skulle erövra det nya landet åt föräldrarna och sudda ut släktens mörka minnen av krigens Europa. I mig koagulerade de vuxnas smärta över förlorade nära och kära, och jag ärvde den sorgens exil som folkhemmets svenskar inte kunde förstå.\r\nProducent: Katarina Svanevik\r\nOm Ebba Witt-Brattström\r\nFörfattare, litteraturprofessor, 73 år\r\nTidigare Sommarvärd 1997\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815537",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785668400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785668400000)/",
+      "endtimeutc": "/Date(1785673800000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2180709
+      },
+      {
+        "id": 1137271
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

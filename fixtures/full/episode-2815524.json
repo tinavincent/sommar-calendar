@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815524,
+    "title": "Robin Larmérus",
+    "description": "Brandmannen och Lyssnarnas Sommarvärd om kallet att hjälpa till där det behövs.",
+    "text": "Han är fallskärmsjägare, brandman och volontär och levererar utrustning till räddningstjänsten på plats mitt i kriget. Hittills har han varit fem vändor till Ukraina och planerar fler. Robin Larmérus är även ledamot i stiftelsen Blåljus i Samverkan som bistår kollegor i och utanför Sverige.\r\nRobin Larmérus om sitt Sommarprat\r\n– Jag vill ta med dig till Ukraina och en dag på brandstationen och till de larm jag aldrig kommer att glömma.\r\nProducent: Kristin Törngren\r\nOm Robin Larmérus\r\nLyssnarnas Sommarvärd, brandman, 39 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815524",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1784718000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1784718000000)/",
+      "endtimeutc": "/Date(1784723400000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2181146
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

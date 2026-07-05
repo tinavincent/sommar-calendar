@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815465,
+    "title": "Amanda Romare",
+    "description": "Författaren om att plocka potatis, undvika döden och hitta sin plats på jorden.",
+    "text": "Hennes omtalade debutroman ”Halva Malmö består av killar som dumpat mig” blev en försäljningssuccé och serie på Netflix. Uppföljaren ”Judas” väckte stor uppmärksamhet och diskuterades flitigt på landets kultursidor. Amanda Romare har hyllats för sina uppriktiga och humoristiska skildringar av dejting och moderna relationer. Vid sidan om författarskapet arbetar hon som producent för film, tv och radio.\r\nProducent: Lena Resborn\r\nOm Amanda Romare\r\nFörfattare, 37 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815465",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782212400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5306,
+        "publishdateutc": "/Date(1782190800000)/",
+        "id": 10209694,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10209694&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815465)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5306,
+          "publishdateutc": "/Date(1782190800000)/",
+          "id": 10209694,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_amanda_romare_med_lang_musik_20260618_1432462272_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815465)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782212400000)/",
+      "endtimeutc": "/Date(1782217800000)/"
+    },
+    "listenpodfile": {
+      "title": "Amanda Romare",
+      "description": "",
+      "filesizeinbytes": 56310037,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782190800000)/",
+      "duration": 3518,
+      "publishdateutc": "/Date(1782212400000)/",
+      "id": 10209697,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_amanda_romare_podd_20260618_1429326974.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815465)]"
+    },
+    "downloadpodfile": {
+      "title": "Amanda Romare",
+      "description": "",
+      "filesizeinbytes": 56310037,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782190800000)/",
+      "duration": 3518,
+      "publishdateutc": "/Date(1782212400000)/",
+      "id": 10209697,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_amanda_romare_podd_20260618_1429326974.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815465)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1952973
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

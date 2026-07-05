@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815522,
+    "title": "Iqra Idow",
+    "description": "Siminstruktören om att våga trotsa sin egen rädsla och hjälpa andra.",
+    "text": "Hon växte upp på flykt och kom till Sverige som 17-åring. Året därpå lärde hon sig simma, för att få ett godkänt idrottsbetyg, och med stärkt självförtroende och en nyvunnen kärlek till vatten startade hon under gymnasietiden simskolan Mermaid, för tjejer och kvinnor. 2024 tilldelades Iqra Idow stipendiet Kompassrosen, för unga ledare, med motiveringen: ”Med vatten som verktyg får hon människor att känna trygghet, självkänsla och framtidstro”.\r\nIqra Idow om sitt Sommarprat\r\n– När jag kom till Sverige hade jag inte gått i skolan och jag kunde inte simma. Det här är berättelsen om att börja från noll, ifrågasätta gränser som andra sätter, och våga trotsa sin egen rädsla.\r\nProducent: Anna Maria Höglund\r\nOm Iqra Idow\r\nSiminstruktör, grundare Mermaid simskola, 28 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815522",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1784545200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1784545200000)/",
+      "endtimeutc": "/Date(1784550600000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1106305
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

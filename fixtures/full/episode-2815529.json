@@ -1,0 +1,46 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815529,
+    "title": "Sven Hagströmer",
+    "description": "Finansmannen om politik och sådant som angår hela svenska folkets ekonomi.",
+    "text": "Han är entreprenör och finansprofil som tillsammans med Mats Qviberg grundade och drev HQ Bank. Är idag ordförande i både Avanza Bank och investeringsbolaget Creades som han också varit med och grundat. Sven Hagströmer har länge varit engagerad i en lång rad sociala projekt inom mångfald, kultur och jämställdhet.\r\nSven Hagströmer om sitt Sommarprat\r\n– Mitt Sommar blir som en talkshow med mig själv. Lite politik och sådant som angår hela svenska folkets ekonomi. Vad mina stora idoler Axel Oxenstierna och Albert Einstein har gemensamt. Och så ska det handla om det finaste som finns: koltrasten.\r\nProducent: Martin Wicklin\r\nOm Sven Hagströmer\r\nFinansman, 82 år\r\nTidigare Sommarvärd 2016\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815529",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785063600000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785063600000)/",
+      "endtimeutc": "/Date(1785069000000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 407837
+      },
+      {
+        "id": 751731
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

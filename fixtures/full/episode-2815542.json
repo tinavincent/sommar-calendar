@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815542,
+    "title": "Eva von Bahr och Love Larson",
+    "description": "Maskörerna om att göra masker i världsklass och hyllas på Oscarsgalan.",
+    "text": "De har belönats med fyra Guldbaggar, bland annat för maskerna i filmerna ”Dune” och ”En man som heter Ove”. De har även nominerats till tre Oscar och två Bafta. Det äkta paret Eva von Bahr och Love Larson träffades för 20 år sedan under inspelningen av ”Arn – Tempelriddaren” och har sedan dess arbetat tätt ihop.\r\nEva von Bahr och Love Larson om sitt Sommarprat\r\n– Vi fattade att vi aldrig skulle vinna över ”Mad Max” med ”Hundraåringen som klev ut genom ett fönster”. Så vi bestämde oss för att bara njuta. Ta ett glas champagne till. För hit skulle vi ju aldrig komma tillbaka. Vi trodde fel.\r\n\r\nProducent: Håkan Lahger\r\nOm Eva von Bahr och Love Larson\r\nMaskörer, sminkörer, 57 respektive 47 år\r\nDebuterar som Sommarvärdar\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815542",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786014000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786014000000)/",
+      "endtimeutc": "/Date(1786019280000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 921590
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

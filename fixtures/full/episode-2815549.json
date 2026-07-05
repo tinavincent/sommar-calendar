@@ -1,0 +1,46 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815549,
+    "title": "Mohammad Fazlhashemi",
+    "description": "Professorn i islamisk teologi och filosofi om situationen i Iran och resan in i den svenska gemenskapen.",
+    "text": "Han kom till Sverige som student på 70-talet och är idag professor i islamisk teologi och filosofi vid Uppsala universitet. Mohammad Fazlhashemi forskar framför allt om politiskt tänkande i islam med fokus på samtiden. Han har skrivit flera populärvetenskapliga böcker, är ledamot i Kungliga Vitterhetsakademien och har tilldelats flera priser, bland annat medalj av kungen för sina förtjänstfulla insatser som islamolog.\r\nMohammad Fazlhashemi om sitt Sommarprat\r\n– Mitt program ska handla om min resa in i den svenska gemenskapen, om hur händelseutvecklingen i Iran ständigt påminner mig om var jag kommer ifrån, och hur det gick till när jag till slut gjorde min mamma stolt.\r\nProducent: Anders Diamant\r\nOm Mohammad Fazlhashemi\r\nProfessor i islamisk teologi och filosofi, 65 år\r\nTidigare Sommarvärd 2006\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815549",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1786618800000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1786618800000)/",
+      "endtimeutc": "/Date(1786624140000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2578979
+      },
+      {
+        "id": 359942
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815479,
+    "title": "Behrang Safari",
+    "description": "Före detta fotbollsspelaren om kärleken till sporten och sina två söner.",
+    "text": "Han har vunnit elva ligatitlar i tre länder – för Malmö FF, Basel i Schweiz och Anderlecht i Belgien. Backtalangen har representerat Sverige i 31 landskamper innan han lade fotbollsskorna på hyllan 2020. Behrang Safari arbetar idag som mentor och agent och medverkar som expert i SVT:s sändningar under fotbolls-VM.\r\nBehrang Safari om sitt Sommarprat\r\n– Min pappa fick höra att om man bodde i Lund och spelade fotboll skulle man åka till Malmö. Han körde mig dit och sen fick jag springa vidare på egna ben. Sen jag själv blev pappa till tvillingsöner med särskilda behov har jag funderat på faderskapet. Mitt program ska handla om vad jag förmår och borde lämna efter mig.\r\nProducent: Henrik Johnsson\r\nOm Behrang Safari\r\nFd fotbollsspelare, agent, 41 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815479",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1783422000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1783422000000)/",
+      "endtimeutc": "/Date(1783427400000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2397430
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

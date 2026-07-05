@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815536,
+    "title": "Kristoffer Leandoer",
+    "description": "Författaren om att leva i två verkligheter samtidigt och varför man aldrig ska gå först i djungeln.",
+    "text": "Mångfaldigt prisad författare och översättare, främst från franska och engelska. Hans böcker ”Mask: Litteraturen som gömställe” och ”Längta hem, längta bort” nominerades till Augustpriset. Kristoffer Leandoer är senast aktuell med ”Det är läsaren som skriver boken”. Han verkar även som litteraturkritiker i Svenska Dagbladet med särskilt fokus på fransk litteratur.\r\nKristoffer Leandoer om sitt Sommarprat\r\n– Jag berättar hur man lever i två verkligheter på samma gång, vad Lee Harvey Oswald gjorde i Minsk, om spionliv i Saigon och varför man aldrig ska gå först i djungeln.\r\nProducent: Mattias Österlund\r\nOm Kristoffer Leandoer\r\nFörfattare, översättare, 64 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815536",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785582000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785582000000)/",
+      "endtimeutc": "/Date(1785587400000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2397243
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

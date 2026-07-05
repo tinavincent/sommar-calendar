@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815470,
+    "title": "Ginna Lindberg",
+    "description": "Utrikeskorrespondenten om att bevaka USA:s president och om ögonblicket hon aldrig glömmer.",
+    "text": "Hon är Sveriges Radios Washingtonkorrespondent och har bevakat USA sedan mitten av 00-talet. Under sin tid som utrikeschef på Ekot startade Ginna Lindberg ”USApodden” som idag är Sveriges största podd om amerikansk politik. Hon har tilldelats både Radioakademins Hederspris och Stora Journalistpriset.\r\nProducent: Viktor Mattson\r\nOm Ginna Lindberg\r\nUtrikeskorrespondent, 59 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815470",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782644400000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/4cc498c0-b5df-40a9-8001-c02bccad735e.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/4cc498c0-b5df-40a9-8001-c02bccad735e.jpg",
+    "photographer": "Mattias Ahlm/Sveriges Radio",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5296,
+        "publishdateutc": "/Date(1782622800000)/",
+        "id": 10213636,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10213636&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815470)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5296,
+          "publishdateutc": "/Date(1782622800000)/",
+          "id": 10213636,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_ginna_lindberg_med_lang_musik_20260623_1659554376_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815470)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782644400000)/",
+      "endtimeutc": "/Date(1782649800000)/"
+    },
+    "listenpodfile": {
+      "title": "Ginna Lindberg",
+      "description": "",
+      "filesizeinbytes": 60894614,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782622800000)/",
+      "duration": 3805,
+      "publishdateutc": "/Date(1782644400000)/",
+      "id": 10213634,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_ginna_lindberg_podd_20260623_1651211719.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815470)]"
+    },
+    "downloadpodfile": {
+      "title": "Ginna Lindberg",
+      "description": "",
+      "filesizeinbytes": 60894614,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782622800000)/",
+      "duration": 3805,
+      "publishdateutc": "/Date(1782644400000)/",
+      "id": 10213634,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_ginna_lindberg_podd_20260623_1651211719.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815470)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 2828100
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

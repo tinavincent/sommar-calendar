@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815534,
+    "title": "Alexandra Polivanova",
+    "description": "Mottagaren av Nobels fredspris om ryska statskontrollen och hennes kärlek till svenska barnböcker.",
+    "text": "Som styrelseledamot för organisation Memorial Ryssland mottog hon Nobels fredspris 2022. Memorial grundades under slutet av Sovjettiden och har i nära 40 år arbetat för mänskliga rättigheter och kartlagt människorättsbrott. Sedan 2013 ansvarar Alexandra Polivanova för Memorials utbildningsprojekt ”Moscow. A Topography of Terror”.\r\nAlexandra Polivanova om sitt Sommarprat\r\n– Ibland kan man få intrycket att de som jobbar i den ryska säkerhetsapparaten är som robotar, som varelser av ett annat slag än vi andra. I själva verket är allt mycket värre.\r\nProducent: Nils Håkanson\r\nOm Alexandra Polivanova\r\nMottagare av Nobels fredspris, 50 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815534",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785409200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785409200000)/",
+      "endtimeutc": "/Date(1785414480000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1953003
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

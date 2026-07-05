@@ -1,0 +1,43 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815539,
+    "title": "Elham Rostami",
+    "description": "Neurokirurgen om sin fascination för hjärnans läkande egenskaper.",
+    "text": "Hon är neurokirurg vid Akademiska sjukhuset i Uppsala och forskar om traumatiska hjärnskador på Uppsala universitet och Karolinska institutet. När hon valdes till ordförande för sektionen för neurotrauma i Europeiska föreningen för neurokirurger (EANS) blev hon deras första kvinnliga ordförande någonsin. Elham Rostami är ordförande i Sveriges unga akademi och arbetar för att öka förtroendet för forskning.\r\nElham Rostami om sitt Sommarprat\r\n– Fem år efter att jag opererat hans hjärna sträckte han fram sin högra hand, den som tidigare varit förlamad, och hälsade. Han som inte kunde forma ett enda ord pratade nu obehindrat. Det var svårt att ta in.\r\nProducent: Sofia Kottorp\r\nOm Elham Rostami\r\nNeurokirurg, 47 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815539",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1785841200000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcasttime": {
+      "starttimeutc": "/Date(1785841200000)/",
+      "endtimeutc": "/Date(1785846600000)/"
+    },
+    "relatedepisodes": [
+      {
+        "id": 921564
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}

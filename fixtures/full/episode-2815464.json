@@ -1,0 +1,92 @@
+{
+  "copyright": "Copyright Sveriges Radio 2026. All rights reserved.",
+  "episode": {
+    "id": 2815464,
+    "title": "Martin Kragh",
+    "description": "Rysslandsexperten om utvecklingen i världspolitiken och sin tillvaro i cancerland.",
+    "text": "Han citeras återkommande i svenska medier i frågor om Ryssland, Östeuropa och säkerhetspolitik. Martin Kragh är forskare med inriktning på rysk och östeuropeisk ekonomi, politik och historia. Han är biträdande chef för Centrum för Östeuropastudier vid Utrikespolitiska institutet och docent vid Institutet för Rysslands- och Eurasienstudier vid Uppsala universitet. Under hösten 2022 fick han diagnosen cancer i bukspottskörteln.\r\nProducent: Martin Wicklin\r\nOm Martin Kragh\r\nRysslandsexpert, 45 år\r\nDebuterar som Sommarvärd\r\nHela listan: Sommarpratare 2026\r\n",
+    "url": "https://www.sverigesradio.se/avsnitt/2815464",
+    "program": {
+      "id": 2071,
+      "name": "Sommar & Vinter i P1"
+    },
+    "audiopreference": "broadcast",
+    "audiopriority": "mp3",
+    "audiopresentation": "music",
+    "publishdateutc": "/Date(1782126000000)/",
+    "imageurl": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square",
+    "imageurltemplate": "https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg",
+    "photographer": "",
+    "broadcast": {
+      "availablestoputc": "/Date(1789621200000)/",
+      "playlist": {
+        "duration": 5300,
+        "publishdateutc": "/Date(1782104400000)/",
+        "id": 10208387,
+        "url": "https://api.sr.se/api/radio/radio.aspx?type=broadcast&id=10208387&codingformat=.m4a&metafile=asx",
+        "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815464)]"
+      },
+      "broadcastfiles": [
+        {
+          "duration": 5300,
+          "publishdateutc": "/Date(1782104400000)/",
+          "id": 10208387,
+          "url": "https://lyssna-cdn.sr.se/isidor/2026/06/sommar__vinter_i_p1_martin_kragh_med_lang_musik_20260617_1425272916_a32.m4a",
+          "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815464)]"
+        }
+      ]
+    },
+    "broadcasttime": {
+      "starttimeutc": "/Date(1782126000000)/",
+      "endtimeutc": "/Date(1782131400000)/"
+    },
+    "listenpodfile": {
+      "title": "Martin Kragh",
+      "description": "",
+      "filesizeinbytes": 60211492,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782104400000)/",
+      "duration": 3762,
+      "publishdateutc": "/Date(1782126000000)/",
+      "id": 10208161,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_martin_kragh_p_20260617_1149035253.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815464)]"
+    },
+    "downloadpodfile": {
+      "title": "Martin Kragh",
+      "description": "",
+      "filesizeinbytes": 60211492,
+      "program": {
+        "id": 2071,
+        "name": "Sommar & Vinter i P1"
+      },
+      "availablefromutc": "/Date(1782104400000)/",
+      "duration": 3762,
+      "publishdateutc": "/Date(1782126000000)/",
+      "id": 10208161,
+      "url": "https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_martin_kragh_p_20260617_1149035253.mp3",
+      "statkey": "/app/avsnitt/p1[k(132)]/sommar & vinter i p1[p(2071)]/[e(2815464)]"
+    },
+    "relatedepisodes": [
+      {
+        "id": 1952950
+      }
+    ],
+    "episodegroups": [
+      {
+        "id": 45270,
+        "name": "Upptäck fler poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=45270"
+      },
+      {
+        "id": 47998,
+        "name": "Populära poddar",
+        "url": "https://api.sr.se/v2/episodes/group?id=47998"
+      }
+    ],
+    "channelid": 132
+  }
+}
