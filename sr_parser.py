@@ -83,10 +83,18 @@ def is_truncated(text: str) -> bool:
     return stripped.endswith("...") or stripped.endswith("…")
 
 
-def sanitize_host_bio(bio: str) -> str:
-    if is_truncated(bio):
+def sanitize_text_field(text: str) -> str:
+    if is_truncated(text):
         return ""
-    return bio
+    return text
+
+
+def sanitize_host_bio(bio: str) -> str:
+    return sanitize_text_field(bio)
+
+
+def sanitize_episode_description(description: str) -> str:
+    return sanitize_text_field(description)
 
 
 def should_skip_line(line: str) -> bool:
@@ -96,18 +104,18 @@ def should_skip_line(line: str) -> bool:
     return any(pattern.search(stripped) for pattern in SKIP_LINE_PATTERNS)
 
 
-def parse_list_page(text: str) -> list[dict]:
+def parse_list_page(text: str, year: int = YEAR) -> list[dict]:
     normalized = normalize_list_text(text)
     entries = []
 
     for day, month_name, host, url, epithet in LIST_PATTERN.findall(normalized):
         month = MONTHS[month_name.lower()]
-        date = f"{YEAR}-{month:02d}-{int(day):02d}"
+        date = f"{year}-{month:02d}-{int(day):02d}"
         host = host.strip()
         entries.append(
             {
                 "id": build_id(date, host),
-                "year": YEAR,
+                "year": year,
                 "date": date,
                 "channel": CHANNEL,
                 "host": host,
@@ -187,6 +195,12 @@ def parse_previous_sommar_years(text: str, host: str) -> list:
     return sorted({int(match.group(1)) for match in pattern.finditer(related_section)})
 
 
+def parse_image_url(text: str) -> str:
+    body = extract_body(text)
+    match = re.search(r"!\[[^\]]*\]\((https?://[^)]+)\)", body)
+    return match.group(1) if match else ""
+
+
 def parse_episode_page(text: str, host: str) -> dict:
     body = extract_body(text)
     lines = body.splitlines()
@@ -196,19 +210,43 @@ def parse_episode_page(text: str, host: str) -> dict:
             "episodeTeaser": "",
             "episodeDescription": "",
             "hostBio": "",
+            "imageUrl": parse_image_url(text),
             "previousSommarYears": parse_previous_sommar_years(text, host),
         }
 
     paragraphs, _ = collect_paragraphs(lines, heading_index + 1)
     episode_teaser = paragraphs[0] if paragraphs else ""
     host_bio = sanitize_host_bio(paragraphs[1] if len(paragraphs) > 1 else "")
-    episode_description = parse_episode_description_section(lines, host)
+    episode_description = sanitize_episode_description(
+        parse_episode_description_section(lines, host)
+    )
 
     return {
         "episodeTeaser": episode_teaser,
         "episodeDescription": episode_description,
         "hostBio": host_bio,
+        "imageUrl": parse_image_url(text),
         "previousSommarYears": parse_previous_sommar_years(text, host),
+    }
+
+
+def parse_enriched_episode(text: str, host: str) -> dict:
+    if not text:
+        return {
+            "imageUrl": "",
+            "shortDescription": "",
+            "longDescription": "",
+            "aboutHost": "",
+            "previousSommarYears": [],
+        }
+
+    parsed = parse_episode_page(text, host)
+    return {
+        "imageUrl": parsed.get("imageUrl", ""),
+        "shortDescription": parsed.get("episodeTeaser", ""),
+        "longDescription": parsed.get("episodeDescription", ""),
+        "aboutHost": parsed.get("hostBio", ""),
+        "previousSommarYears": parsed.get("previousSommarYears", []),
     }
 
 
@@ -218,6 +256,7 @@ def build_episode(list_entry: dict, episode_page: Optional[str]) -> dict:
         "episodeTeaser": "",
         "episodeDescription": "",
         "hostBio": "",
+        "imageUrl": "",
         "previousSommarYears": [],
     }
 
@@ -238,6 +277,8 @@ def is_rate_limit_or_error(content: str) -> bool:
     ):
         return True
     if "Access Denied" in stripped:
+        return True
+    if "upstream connect error" in stripped.lower():
         return True
     return False
 
@@ -303,10 +344,10 @@ def print_fixture_summary(audit: dict, fetched: int = 0, fetch_failed: list = No
 
     if remaining:
         print("\nNext recommended command:")
-        print("  python3 fetch_fixtures.py")
+        print("  python3 import_season.py --step enrich")
     else:
         print("\nAll fixtures valid. Rebuild JSON with:")
-        print("  python3 fetch.py")
+        print("  python3 import_season.py --step export")
 
 
 def print_summary(episodes: list, output_path, failed_urls: list) -> None:

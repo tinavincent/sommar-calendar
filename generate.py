@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Generate Sommar i P1 calendar from JSON."""
 
+import argparse
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Optional
+
+from season_import.models import legacy_episode_to_calendar, season_episode_to_legacy
+from season_import.paths import LEGACY_SHIM, SEASONS_DIR, SEASONS_INDEX
 
 ROOT = Path(__file__).parent
-INPUT = ROOT / "data" / "sommar-2026.json"
-OUTPUT = ROOT / "output" / "sommar-2026.ics"
-
 TIMEZONE = "Europe/Stockholm"
 DURATION_MINUTES = 15
 
@@ -49,9 +51,34 @@ def format_date(date: str) -> str:
     return date.replace("-", "")
 
 
-def add_minutes(dt: str, minutes: int) -> str:
-    parsed = datetime.strptime(dt, "%Y%m%dT%H%M%S")
-    return (parsed + timedelta(minutes=minutes)).strftime("%Y%m%dT%H%M%S")
+def load_episodes(year: Optional[int] = None) -> tuple:
+    if year is None and SEASONS_INDEX.exists():
+        try:
+            index = json.loads(SEASONS_INDEX.read_text(encoding="utf-8"))
+            year = index.get("activeSeason")
+        except (json.JSONDecodeError, OSError):
+            year = None
+
+    if year is None and SEASONS_DIR.exists():
+        season_files = sorted(SEASONS_DIR.glob("*.json"), reverse=True)
+        if season_files:
+            year = int(season_files[0].stem)
+
+    if year is not None:
+        season_path = SEASONS_DIR / f"{year}.json"
+        if season_path.exists():
+            season = json.loads(season_path.read_text(encoding="utf-8"))
+            episodes = [
+                legacy_episode_to_calendar(season_episode_to_legacy(ep, year))
+                for ep in season["episodes"]
+            ]
+            return episodes, year
+
+    if LEGACY_SHIM.exists():
+        episodes = json.loads(LEGACY_SHIM.read_text(encoding="utf-8"))
+        return [legacy_episode_to_calendar(ep) for ep in episodes], 2026
+
+    raise FileNotFoundError("No season data found. Run: python3 import_season.py")
 
 
 def build_description(host: str, sr_url: str, description: str) -> str:
@@ -99,7 +126,12 @@ def build_event(episode: dict) -> str:
 
 
 def main() -> None:
-    episodes = json.loads(INPUT.read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser(description="Generate Sommar i P1 calendar from JSON.")
+    parser.add_argument("--year", type=int, help="Season year (default: activeSeason from index)")
+    args = parser.parse_args()
+
+    episodes, year = load_episodes(args.year)
+    output = ROOT / "output" / f"sommar-{year}.ics"
 
     calendar = "\r\n".join(
         [
@@ -108,7 +140,7 @@ def main() -> None:
             "PRODID:-//Sommar Calendar//Sommar i P1 2026//EN",
             "CALSCALE:GREGORIAN",
             "METHOD:PUBLISH",
-            "X-WR-CALNAME:Sommar i P1 2026",
+            f"X-WR-CALNAME:Sommar i P1 {year}",
             f"X-WR-TIMEZONE:{TIMEZONE}",
             VTIMEZONE,
             *[build_event(episode) for episode in episodes],
@@ -117,9 +149,9 @@ def main() -> None:
         ]
     )
 
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(calendar, encoding="utf-8")
-    print(f"Wrote {len(episodes)} events to {OUTPUT}")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(calendar, encoding="utf-8")
+    print(f"Wrote {len(episodes)} events to {output}")
 
 
 if __name__ == "__main__":

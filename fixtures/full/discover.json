@@ -1,0 +1,524 @@
+[
+  {
+    "id": "2026-06-20-sommar-i-p1-helena-bergstrom",
+    "year": 2026,
+    "date": "2026-06-20",
+    "channel": "sommar-i-p1",
+    "host": "Helena Bergström",
+    "hostEpithet": "skådespelare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815462"
+  },
+  {
+    "id": "2026-06-21-sommar-i-p1-sebastian-ingrosso",
+    "year": 2026,
+    "date": "2026-06-21",
+    "channel": "sommar-i-p1",
+    "host": "Sebastian Ingrosso",
+    "hostEpithet": "dj, artist",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815463"
+  },
+  {
+    "id": "2026-06-22-sommar-i-p1-martin-kragh",
+    "year": 2026,
+    "date": "2026-06-22",
+    "channel": "sommar-i-p1",
+    "host": "Martin Kragh",
+    "hostEpithet": "Rysslandsexpert",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815464"
+  },
+  {
+    "id": "2026-06-23-sommar-i-p1-amanda-romare",
+    "year": 2026,
+    "date": "2026-06-23",
+    "channel": "sommar-i-p1",
+    "host": "Amanda Romare",
+    "hostEpithet": "författare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815465"
+  },
+  {
+    "id": "2026-06-24-sommar-i-p1-jonas-bonnier",
+    "year": 2026,
+    "date": "2026-06-24",
+    "channel": "sommar-i-p1",
+    "host": "Jonas Bonnier",
+    "hostEpithet": "författare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815466"
+  },
+  {
+    "id": "2026-06-25-sommar-i-p1-jonas-gren",
+    "year": 2026,
+    "date": "2026-06-25",
+    "channel": "sommar-i-p1",
+    "host": "Jonas Gren",
+    "hostEpithet": "författare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815467"
+  },
+  {
+    "id": "2026-06-26-sommar-i-p1-carolina-dybeck-happe",
+    "year": 2026,
+    "date": "2026-06-26",
+    "channel": "sommar-i-p1",
+    "host": "Carolina Dybeck Happe",
+    "hostEpithet": "vice vd Microsoft",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815474"
+  },
+  {
+    "id": "2026-06-27-sommar-i-p1-alexander-karim",
+    "year": 2026,
+    "date": "2026-06-27",
+    "channel": "sommar-i-p1",
+    "host": "Alexander Karim",
+    "hostEpithet": "skådespelare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815519"
+  },
+  {
+    "id": "2026-06-28-sommar-i-p1-ginna-lindberg",
+    "year": 2026,
+    "date": "2026-06-28",
+    "channel": "sommar-i-p1",
+    "host": "Ginna Lindberg",
+    "hostEpithet": "utrikeskorrespondent",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815470"
+  },
+  {
+    "id": "2026-06-29-sommar-i-p1-patrik-norqvist",
+    "year": 2026,
+    "date": "2026-06-29",
+    "channel": "sommar-i-p1",
+    "host": "Patrik Norqvist",
+    "hostEpithet": "rymdfysiker",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815471"
+  },
+  {
+    "id": "2026-06-30-sommar-i-p1-johan-eriksson",
+    "year": 2026,
+    "date": "2026-06-30",
+    "channel": "sommar-i-p1",
+    "host": "Johan Eriksson",
+    "hostEpithet": "advokat",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815472"
+  },
+  {
+    "id": "2026-07-01-sommar-i-p1-sarah-sheppard",
+    "year": 2026,
+    "date": "2026-07-01",
+    "channel": "sommar-i-p1",
+    "host": "Sarah Sheppard",
+    "hostEpithet": "barnboksförfattare, illustratör",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815473"
+  },
+  {
+    "id": "2026-07-02-sommar-i-p1-maria-maunsbach",
+    "year": 2026,
+    "date": "2026-07-02",
+    "channel": "sommar-i-p1",
+    "host": "Maria Maunsbach",
+    "hostEpithet": "författare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815526"
+  },
+  {
+    "id": "2026-07-03-sommar-i-p1-ann-heberlein",
+    "year": 2026,
+    "date": "2026-07-03",
+    "channel": "sommar-i-p1",
+    "host": "Ann Heberlein",
+    "hostEpithet": "författare, teologie doktor i etik",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815475"
+  },
+  {
+    "id": "2026-07-04-sommar-i-p1-olof-wretling",
+    "year": 2026,
+    "date": "2026-07-04",
+    "channel": "sommar-i-p1",
+    "host": "Olof Wretling",
+    "hostEpithet": "komiker",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815476"
+  },
+  {
+    "id": "2026-07-05-sommar-i-p1-marie-goranzon",
+    "year": 2026,
+    "date": "2026-07-05",
+    "channel": "sommar-i-p1",
+    "host": "Marie Göranzon",
+    "hostEpithet": "skådespelare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815477"
+  },
+  {
+    "id": "2026-07-06-sommar-i-p1-erika-bjerstrom",
+    "year": 2026,
+    "date": "2026-07-06",
+    "channel": "sommar-i-p1",
+    "host": "Erika Bjerström",
+    "hostEpithet": "journalist",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815478"
+  },
+  {
+    "id": "2026-07-07-sommar-i-p1-behrang-safari",
+    "year": 2026,
+    "date": "2026-07-07",
+    "channel": "sommar-i-p1",
+    "host": "Behrang Safari",
+    "hostEpithet": "fd fotbollsspelare, agent",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815479"
+  },
+  {
+    "id": "2026-07-08-sommar-i-p1-sebastian-siemiatkowski",
+    "year": 2026,
+    "date": "2026-07-08",
+    "channel": "sommar-i-p1",
+    "host": "Sebastian Siemiatkowski",
+    "hostEpithet": "grundare och vd Klarna",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815483"
+  },
+  {
+    "id": "2026-07-09-sommar-i-p1-evelyn-mok",
+    "year": 2026,
+    "date": "2026-07-09",
+    "channel": "sommar-i-p1",
+    "host": "Evelyn Mok",
+    "hostEpithet": "komiker",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815484"
+  },
+  {
+    "id": "2026-07-10-sommar-i-p1-carl-skau",
+    "year": 2026,
+    "date": "2026-07-10",
+    "channel": "sommar-i-p1",
+    "host": "Carl Skau",
+    "hostEpithet": "tf chef FN:s livsmedelsprogram",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815488"
+  },
+  {
+    "id": "2026-07-11-sommar-i-p1-amanda-jansson",
+    "year": 2026,
+    "date": "2026-07-11",
+    "channel": "sommar-i-p1",
+    "host": "Amanda Jansson",
+    "hostEpithet": "skådespelare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815509"
+  },
+  {
+    "id": "2026-07-12-sommar-i-p1-martin-modeus",
+    "year": 2026,
+    "date": "2026-07-12",
+    "channel": "sommar-i-p1",
+    "host": "Martin Modéus",
+    "hostEpithet": "ärkebiskop",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815510"
+  },
+  {
+    "id": "2026-07-13-sommar-i-p1-emil-hansius",
+    "year": 2026,
+    "date": "2026-07-13",
+    "channel": "sommar-i-p1",
+    "host": "Emil Hansius",
+    "hostEpithet": "youtuber",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815511"
+  },
+  {
+    "id": "2026-07-14-sommar-i-p1-ebba-kleberg-von-sydow",
+    "year": 2026,
+    "date": "2026-07-14",
+    "channel": "sommar-i-p1",
+    "host": "Ebba Kleberg von Sydow",
+    "hostEpithet": "journalist, hovexpert",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815515"
+  },
+  {
+    "id": "2026-07-15-sommar-i-p1-bettan-byvald",
+    "year": 2026,
+    "date": "2026-07-15",
+    "channel": "sommar-i-p1",
+    "host": "Bettan Byvald",
+    "hostEpithet": "socialarbetare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815516"
+  },
+  {
+    "id": "2026-07-16-sommar-i-p1-elaf-ali",
+    "year": 2026,
+    "date": "2026-07-16",
+    "channel": "sommar-i-p1",
+    "host": "Elaf Ali",
+    "hostEpithet": "journalist, författare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815517"
+  },
+  {
+    "id": "2026-07-17-sommar-i-p1-anders-rosengren",
+    "year": 2026,
+    "date": "2026-07-17",
+    "channel": "sommar-i-p1",
+    "host": "Anders Rosengren",
+    "hostEpithet": "läkare, professor i molekylär medicin",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815518"
+  },
+  {
+    "id": "2026-07-18-sommar-i-p1-jan-rippe",
+    "year": 2026,
+    "date": "2026-07-18",
+    "channel": "sommar-i-p1",
+    "host": "Jan Rippe",
+    "hostEpithet": "komiker",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815469"
+  },
+  {
+    "id": "2026-07-19-sommar-i-p1-ruth-kvarnstrom-jones",
+    "year": 2026,
+    "date": "2026-07-19",
+    "channel": "sommar-i-p1",
+    "host": "Ruth Kvarnström-Jones",
+    "hostEpithet": "författare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815520"
+  },
+  {
+    "id": "2026-07-20-sommar-i-p1-iqra-idow",
+    "year": 2026,
+    "date": "2026-07-20",
+    "channel": "sommar-i-p1",
+    "host": "Iqra Idow",
+    "hostEpithet": "siminstruktör, grundare Mermaid simskola",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815522"
+  },
+  {
+    "id": "2026-07-21-sommar-i-p1-maria-sid",
+    "year": 2026,
+    "date": "2026-07-21",
+    "channel": "sommar-i-p1",
+    "host": "Maria Sid",
+    "hostEpithet": "skådespelare, teaterchef",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815523"
+  },
+  {
+    "id": "2026-07-22-sommar-i-p1-robin-larmerus",
+    "year": 2026,
+    "date": "2026-07-22",
+    "channel": "sommar-i-p1",
+    "host": "Robin Larmérus",
+    "hostEpithet": "Lyssnarnas Sommarvärd, brandman",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815524"
+  },
+  {
+    "id": "2026-07-23-sommar-i-p1-kajsa-ollongren",
+    "year": 2026,
+    "date": "2026-07-23",
+    "channel": "sommar-i-p1",
+    "host": "Kajsa Ollongren",
+    "hostEpithet": "EU:s särskilda representant för mänskliga rättigheter",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815525"
+  },
+  {
+    "id": "2026-07-24-sommar-i-p1-sara-vide-ericson",
+    "year": 2026,
+    "date": "2026-07-24",
+    "channel": "sommar-i-p1",
+    "host": "Sara-Vide Ericson",
+    "hostEpithet": "konstnär",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815548"
+  },
+  {
+    "id": "2026-07-25-sommar-i-p1-joel-kinnaman",
+    "year": 2026,
+    "date": "2026-07-25",
+    "channel": "sommar-i-p1",
+    "host": "Joel Kinnaman",
+    "hostEpithet": "skådespelare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815527"
+  },
+  {
+    "id": "2026-07-26-sommar-i-p1-sven-hagstromer",
+    "year": 2026,
+    "date": "2026-07-26",
+    "channel": "sommar-i-p1",
+    "host": "Sven Hagströmer",
+    "hostEpithet": "finansman",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815529"
+  },
+  {
+    "id": "2026-07-27-sommar-i-p1-ebba-arsjo",
+    "year": 2026,
+    "date": "2026-07-27",
+    "channel": "sommar-i-p1",
+    "host": "Ebba Årsjö",
+    "hostEpithet": "paraidrottare, alpin skidåkare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815530"
+  },
+  {
+    "id": "2026-07-28-sommar-i-p1-andreas-t-olsson",
+    "year": 2026,
+    "date": "2026-07-28",
+    "channel": "sommar-i-p1",
+    "host": "Andreas T Olsson",
+    "hostEpithet": "skådespelare, dramatiker",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815531"
+  },
+  {
+    "id": "2026-07-29-sommar-i-p1-martin-peterson",
+    "year": 2026,
+    "date": "2026-07-29",
+    "channel": "sommar-i-p1",
+    "host": "Martin Peterson",
+    "hostEpithet": "professor i filosofi",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815532"
+  },
+  {
+    "id": "2026-07-30-sommar-i-p1-alexandra-polivanova",
+    "year": 2026,
+    "date": "2026-07-30",
+    "channel": "sommar-i-p1",
+    "host": "Alexandra Polivanova",
+    "hostEpithet": "mottagare av Nobels fredspris",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815534"
+  },
+  {
+    "id": "2026-07-31-sommar-i-p1-elin-rombo",
+    "year": 2026,
+    "date": "2026-07-31",
+    "channel": "sommar-i-p1",
+    "host": "Elin Rombo",
+    "hostEpithet": "operasångerska",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815535"
+  },
+  {
+    "id": "2026-08-01-sommar-i-p1-kristoffer-leandoer",
+    "year": 2026,
+    "date": "2026-08-01",
+    "channel": "sommar-i-p1",
+    "host": "Kristoffer Leandoer",
+    "hostEpithet": "författare, översättare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815536"
+  },
+  {
+    "id": "2026-08-02-sommar-i-p1-ebba-witt-brattstrom",
+    "year": 2026,
+    "date": "2026-08-02",
+    "channel": "sommar-i-p1",
+    "host": "Ebba Witt-Brattström",
+    "hostEpithet": "författare, litteraturprofessor",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815537"
+  },
+  {
+    "id": "2026-08-03-sommar-i-p1-david-wiberg",
+    "year": 2026,
+    "date": "2026-08-03",
+    "channel": "sommar-i-p1",
+    "host": "David Wiberg",
+    "hostEpithet": "skådespelare, författare, komiker",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815538"
+  },
+  {
+    "id": "2026-08-04-sommar-i-p1-elham-rostami",
+    "year": 2026,
+    "date": "2026-08-04",
+    "channel": "sommar-i-p1",
+    "host": "Elham Rostami",
+    "hostEpithet": "neurokirurg",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815539"
+  },
+  {
+    "id": "2026-08-05-sommar-i-p1-pelle-larsson",
+    "year": 2026,
+    "date": "2026-08-05",
+    "channel": "sommar-i-p1",
+    "host": "Pelle Larsson",
+    "hostEpithet": "basketspelare Miami Heat, NBA",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815541"
+  },
+  {
+    "id": "2026-08-06-sommar-i-p1-eva-von-bahr-och-love-larsson",
+    "year": 2026,
+    "date": "2026-08-06",
+    "channel": "sommar-i-p1",
+    "host": "Eva von Bahr och Love Larsson",
+    "hostEpithet": "maskörer, sminkörer",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815542"
+  },
+  {
+    "id": "2026-08-07-sommar-i-p1-alexander-ekman",
+    "year": 2026,
+    "date": "2026-08-07",
+    "channel": "sommar-i-p1",
+    "host": "Alexander Ekman",
+    "hostEpithet": "koreograf, konstnär",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815543"
+  },
+  {
+    "id": "2026-08-08-sommar-i-p1-linda-lampenius",
+    "year": 2026,
+    "date": "2026-08-08",
+    "channel": "sommar-i-p1",
+    "host": "Linda Lampenius",
+    "hostEpithet": "violinist",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815544"
+  },
+  {
+    "id": "2026-08-09-sommar-i-p1-asne-seierstad",
+    "year": 2026,
+    "date": "2026-08-09",
+    "channel": "sommar-i-p1",
+    "host": "Åsne Seierstad",
+    "hostEpithet": "journalist, författare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815545"
+  },
+  {
+    "id": "2026-08-10-sommar-i-p1-manne-af-klintberg",
+    "year": 2026,
+    "date": "2026-08-10",
+    "channel": "sommar-i-p1",
+    "host": "Manne af Klintberg",
+    "hostEpithet": "clown",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815546"
+  },
+  {
+    "id": "2026-08-11-sommar-i-p1-ewa-froling",
+    "year": 2026,
+    "date": "2026-08-11",
+    "channel": "sommar-i-p1",
+    "host": "Ewa Fröling",
+    "hostEpithet": "skådespelare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815547"
+  },
+  {
+    "id": "2026-08-12-sommar-i-p1-vanessa-kamga",
+    "year": 2026,
+    "date": "2026-08-12",
+    "channel": "sommar-i-p1",
+    "host": "Vanessa Kamga",
+    "hostEpithet": "friidrottare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815468"
+  },
+  {
+    "id": "2026-08-13-sommar-i-p1-mohammad-fazlhashemi",
+    "year": 2026,
+    "date": "2026-08-13",
+    "channel": "sommar-i-p1",
+    "host": "Mohammad Fazlhashemi",
+    "hostEpithet": "professor i islamisk teologi och filosofi",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815549"
+  },
+  {
+    "id": "2026-08-14-sommar-i-p1-sofia-dalen",
+    "year": 2026,
+    "date": "2026-08-14",
+    "channel": "sommar-i-p1",
+    "host": "Sofia Dalén",
+    "hostEpithet": "komiker",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815876"
+  },
+  {
+    "id": "2026-08-15-sommar-i-p1-felicia-eriksson",
+    "year": 2026,
+    "date": "2026-08-15",
+    "channel": "sommar-i-p1",
+    "host": "Felicia Eriksson",
+    "hostEpithet": "artist",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815550"
+  },
+  {
+    "id": "2026-08-16-sommar-i-p1-niklas-radstrom",
+    "year": 2026,
+    "date": "2026-08-16",
+    "channel": "sommar-i-p1",
+    "host": "Niklas Rådström",
+    "hostEpithet": "författare",
+    "srUrl": "https://www.sverigesradio.se/avsnitt/2815552"
+  }
+]
